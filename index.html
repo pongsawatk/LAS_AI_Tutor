@@ -16,33 +16,12 @@
 </head>
 
 <body>
-  <!-- Config (API Key) -->
+  <!-- Config (Webhook URLs) -->
   <script src="config.js"></script>
 
   <!-- Animated Background -->
   <div class="bg-animation"></div>
   <div class="particles" id="particles"></div>
-
-  <!-- Settings Modal (Model selector only) -->
-  <div class="settings-overlay" id="settingsOverlay" onclick="closeSettingsOutside(event)">
-    <div class="settings-modal">
-      <h2>⚙️ ตั้งค่า AI Model</h2>
-      <label for="modelSelect">เลือก AI Model</label>
-      <select id="modelSelect">
-        <option value="gemini-2.5-flash" selected>Gemini 2.5 Flash (เร็ว, Default)</option>
-        <option value="gemini-2.5-pro">Gemini 2.5 Pro (ฉลาด)</option>
-        <option value="gemini-2.5-flash-lite">Gemini 2.5 Flash-Lite (ประหยัด)</option>
-        <option value="gemini-3-flash-preview">Gemini 3 Flash (Preview)</option>
-        <option value="gemini-3-pro-preview">Gemini 3 Pro (Preview)</option>
-        <option value="gemini-3.1-pro-preview">Gemini 3.1 Pro (Preview)</option>
-      </select>
-
-      <div class="btn-row">
-        <button class="btn-cancel" onclick="closeSettings()">ยกเลิก</button>
-        <button class="btn-save" onclick="saveSettings()">💾 บันทึก</button>
-      </div>
-    </div>
-  </div>
 
   <!-- Error Toast -->
   <div class="error-toast" id="errorToast"></div>
@@ -58,17 +37,8 @@
       <div class="status">
         <span class="status-dot"></span>
         <span id="statusText">พร้อมให้คำปรึกษา</span>
-        <span class="model-badge" id="modelBadge"></span>
+        <span class="model-badge" id="modelBadge" style="display:none"></span>
       </div>
-      <!-- Settings Gear Icon -->
-      <button class="settings-btn" onclick="openSettings()" aria-label="ตั้งค่า">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-          stroke-linejoin="round">
-          <circle cx="12" cy="12" r="3" />
-          <path
-            d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
-        </svg>
-      </button>
     </div>
 
     <!-- Messages -->
@@ -110,8 +80,8 @@
     let isProcessing = false;
     let messageHistory = [];
 
-    // --- Model (from localStorage, fallback to default) ---
-    let selectedModel = localStorage.getItem('creful_model') || 'gemini-2.5-flash';
+    // --- Model (received from n8n response) ---
+    let lastUsedModel = '';
 
     // --- KB Module files ---
     const KB_FILES = [
@@ -187,7 +157,6 @@
     async function init() {
       createParticles();
       await loadKB();
-      loadSettings();
       checkApiKey();
       showGreeting();
     }
@@ -244,10 +213,10 @@
     }
 
     function checkApiKey() {
-      if (!CONFIG.GEMINI_API_KEY || CONFIG.GEMINI_API_KEY === 'YOUR_API_KEY_HERE') {
-        console.warn('⚠️ Gemini API Key ยังไม่ได้ตั้งค่า — กรุณาแก้ไขไฟล์ config.js');
+      if (!CONFIG.N8N_WEBHOOK_URL || CONFIG.N8N_WEBHOOK_URL === 'YOUR_N8N_WEBHOOK_URL_HERE') {
+        console.warn('⚠️ N8N_WEBHOOK_URL ยังไม่ได้ตั้งค่า — กรุณาแก้ไขไฟล์ config.js');
       } else {
-        console.log('✅ API Key loaded from config.js');
+        console.log('✅ n8n Webhook URL loaded from config.js');
       }
     }
 
@@ -261,38 +230,15 @@
     }
 
     // ============================================================
-    // SETTINGS (Model only — API Key lives in config.js)
+    // MODEL BADGE (updated from n8n response)
     // ============================================================
-    function loadSettings() {
-      selectedModel = localStorage.getItem('creful_model') || 'gemini-2.5-flash';
-      document.getElementById('modelSelect').value = selectedModel;
-      updateModelBadge();
-    }
-
-    function updateModelBadge() {
+    function updateModelBadge(modelName) {
       const badge = document.getElementById('modelBadge');
-      if (badge) badge.textContent = selectedModel;
-    }
-
-    function openSettings() {
-      document.getElementById('modelSelect').value = selectedModel;
-      document.getElementById('settingsOverlay').classList.add('active');
-    }
-
-    function closeSettings() {
-      document.getElementById('settingsOverlay').classList.remove('active');
-    }
-
-    function closeSettingsOutside(e) {
-      if (e.target === document.getElementById('settingsOverlay')) closeSettings();
-    }
-
-    function saveSettings() {
-      selectedModel = document.getElementById('modelSelect').value;
-      localStorage.setItem('creful_model', selectedModel);
-      updateModelBadge();
-      closeSettings();
-      showToast('✅ บันทึกการตั้งค่าเรียบร้อย!', false);
+      if (badge && modelName) {
+        badge.textContent = modelName;
+        badge.style.display = 'inline-block';
+        lastUsedModel = modelName;
+      }
     }
 
     // ============================================================
@@ -354,9 +300,9 @@
       greeting += `• การจัดการกรณีลูกค้าสั่งเปลี่ยนหน้างาน\n`;
       greeting += `• ข้อผิดพลาดที่พบบ่อยในงานต่างๆ`;
 
-      // Warn if API key not set
-      if (!CONFIG.GEMINI_API_KEY || CONFIG.GEMINI_API_KEY === 'YOUR_API_KEY_HERE') {
-        greeting += `\n\n⚠️ <em>API Key ยังไม่ได้ตั้งค่า — กรุณาแก้ไขไฟล์ config.js ก่อนถามคำถามนะครับ</em>`;
+      // Warn if n8n Webhook URL not set
+      if (!CONFIG.N8N_WEBHOOK_URL || CONFIG.N8N_WEBHOOK_URL === 'YOUR_N8N_WEBHOOK_URL_HERE') {
+        greeting += `\n\n⚠️ <em>N8N_WEBHOOK_URL ยังไม่ได้ตั้งค่า — กรุณาแก้ไขไฟล์ config.js ก่อนถามคำถามนะครับ</em>`;
       }
 
       addBotMessage(greeting);
@@ -370,10 +316,10 @@
     }
 
     async function handleQuestion(text, typingEl) {
-      // Validate API key from config.js
-      if (!CONFIG.GEMINI_API_KEY || CONFIG.GEMINI_API_KEY === 'YOUR_API_KEY_HERE') {
+      // Validate n8n Webhook URL from config.js
+      if (!CONFIG.N8N_WEBHOOK_URL || CONFIG.N8N_WEBHOOK_URL === 'YOUR_N8N_WEBHOOK_URL_HERE') {
         typingEl.remove();
-        addBotMessage('⚠️ กรุณาตั้งค่า <strong>API Key</strong> ก่อนนะครับ\n\nเปิดไฟล์ <strong>config.js</strong> แล้วใส่ Gemini API Key ของคุณแทนค่า "YOUR_API_KEY_HERE" ครับ');
+        addBotMessage('⚠️ ยังไม่ได้ตั้งค่า <strong>N8N_WEBHOOK_URL</strong> นะครับครับ\n\nเปิดไฟล์ <strong>config.js</strong> แล้วใส่ n8n Webhook URL แทนค่า "YOUR_N8N_WEBHOOK_URL_HERE" ครับ');
         return;
       }
 
@@ -384,7 +330,7 @@
       // Start response timer
       const startTime = performance.now();
 
-      const response = await callGeminiAPI(text);
+      const result = await callGeminiAPI(text);
 
       // Calculate elapsed time in seconds (2 decimal places)
       const responseTime = ((performance.now() - startTime) / 1000).toFixed(2);
@@ -392,11 +338,14 @@
       typingEl.remove();
       document.getElementById('statusText').textContent = 'พร้อมให้คำปรึกษา';
 
-      addBotMessage(response);
-      messageHistory.push({ role: 'model', parts: [{ text: response }] });
+      addBotMessage(result.answer);
+      messageHistory.push({ role: 'model', parts: [{ text: result.answer }] });
+
+      // Update model badge from n8n response
+      if (result.model) updateModelBadge(result.model);
 
       // Fire-and-forget: log to Google Sheet (does not await)
-      sendLogToSheet(text, response, responseTime, selectedModel);
+      sendLogToSheet(text, result.answer, responseTime, result.model || lastUsedModel);
 
       // Keep history manageable (last 20 turns = 40 entries)
       if (messageHistory.length > 40) {
@@ -443,35 +392,19 @@
     }
 
     // ============================================================
-    // GEMINI API
+    // N8N WEBHOOK BRIDGE (replaces direct Gemini API call)
     // ============================================================
     async function callGeminiAPI(userMessage) {
-      const apiKey = CONFIG.GEMINI_API_KEY;
-      const url = `https://generativelanguage.googleapis.com/v1beta/models/${selectedModel}:generateContent?key=${apiKey}`;
+      const url = CONFIG.N8N_WEBHOOK_URL;
 
+      // Lightweight payload — KB context & system prompt live inside n8n workflow
       const payload = {
-        system_instruction: {
-          parts: [
-            { text: SYSTEM_INSTRUCTION },
-            { text: kbContextText }
-          ]
-        },
-        contents: [...messageHistory],
-        generationConfig: {
-          temperature: 0.3,
-          topP: 0.85,
-          topK: 40,
-          maxOutputTokens: 2048
-        },
-        safetySettings: [
-          { category: "HARM_CATEGORY_HARASSMENT", threshold: "BLOCK_NONE" },
-          { category: "HARM_CATEGORY_HATE_SPEECH", threshold: "BLOCK_NONE" },
-          { category: "HARM_CATEGORY_SEXUALLY_EXPLICIT", threshold: "BLOCK_NONE" },
-          { category: "HARM_CATEGORY_DANGEROUS_CONTENT", threshold: "BLOCK_NONE" }
-        ]
+        question: userMessage,
+        userName: userName || 'ไม่ระบุชื่อ',
+        kbData: kbContextText
       };
 
-      console.log(`📡 Calling Gemini API — Model: ${selectedModel}`);
+      console.log(`📡 Calling n8n Webhook — ${url}`);
 
       const res = await fetch(url, {
         method: 'POST',
@@ -482,26 +415,23 @@
       if (!res.ok) {
         const errData = await res.json().catch(() => ({}));
         const errMsg = errData?.error?.message || `HTTP ${res.status} — ${res.statusText}`;
-        const errCode = errData?.error?.code || res.status;
-        console.error(`❌ API Error [${errCode}]:`, errMsg);
-        throw new Error(`[${errCode}] ${errMsg}`);
+        console.error(`❌ n8n Error [${res.status}]:`, errMsg);
+        throw new Error(`[${res.status}] ${errMsg}`);
       }
 
       const data = await res.json();
-      const candidate = data?.candidates?.[0];
 
-      if (!candidate) {
-        console.error('❌ No candidate in API response:', JSON.stringify(data, null, 2));
-        throw new Error('ไม่ได้รับคำตอบจาก AI — อาจถูกบล็อกโดย Safety Filter');
+      // n8n should return { output: "...", model: "..." }
+      const answer = data?.output || data?.answer || data?.text ||
+        (typeof data === 'string' ? data : null);
+      const model = data?.model || '';
+
+      if (!answer) {
+        console.error('❌ Unexpected n8n response shape:', JSON.stringify(data, null, 2));
+        throw new Error('ไม่ใช่รูปแบบ Response จาก n8n — ตรวจสอบ n8n Workflow ให้ Return { "output": "...", "model": "..." } ครับ');
       }
 
-      const text = candidate.content?.parts?.map(p => p.text).join('') || '';
-      if (!text) {
-        console.error('❌ Empty response from API:', JSON.stringify(candidate, null, 2));
-        throw new Error('คำตอบจาก AI ว่างเปล่า');
-      }
-
-      return text;
+      return { answer, model };
     }
 
     // ============================================================
