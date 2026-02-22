@@ -1,0 +1,92 @@
+[
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.3_CoreConcept",
+      "module_id": "Module 3.3",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Door Set",
+        "Performance Requirements",
+        "3 Clearance Rules"
+      ],
+      "authority_level": "Medium"
+    },
+    "content": "หลักการสำคัญของระบบประตูหน้าต่าง (Door, Window & Hardware Details): ต้องมองเป็น 'ชุดประตู (Door Set)' ประกอบด้วย วงกบ, บานประตู, ฮาร์ดแวร์, ยางกัน/ธรณีประตู, และอุปกรณ์เสริม โดยต้องตอบสนองฟังก์ชัน เช่น กันไฟ/ควัน, กันเสียง, และความปลอดภัย กฎสำคัญคือ 'กฎ 3 ช่องว่าง (The 3 Clearance Rules)' ได้แก่ 1) Installation Clearance (ช่องว่างตั้งระดับวงกบกับผนัง) 2) Operational Clearance (ระยะห่างรอบบานเพื่อเปิด-ปิด) 3) Performance Clearance (ช่องว่างที่ต้องปิดด้วยยางกันเพื่อกันเสียง/ควัน)"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.3_DoorAnatomy",
+      "module_id": "Module 3.3",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Frame",
+        "Leaf",
+        "Hardware",
+        "Wall Interface"
+      ],
+      "authority_level": "High"
+    },
+    "content": "องค์ประกอบของชุดประตู (Anatomy of Door Sets): 1) วงกบ (Frame): ประกอบด้วย Head, Jamb, Stop และซับวงกบ สิ่งที่ต้องเช็คก่อนติดคือจุดต่อผนัง ต้องมีโครงเสริม (ผนังเบา) หรือเสาเอ็นทับหลัง (ผนังปูน) 2) บานประตู (Leaf): มีแบบ Solid (แข็งแรง/กันเสียง), Hollow (เบา ห้ามตัดเกินระยะ), Fire Rated (ห้ามเจาะดัดแปลงเอง) และใช้วัสดุที่เหมาะกับพื้นที่ 3) อุปกรณ์ (Hardware): บานพับ (รับน้ำหนัก), โช้คประตู (กำลังดัน), และอุปกรณ์เสริม Drop seal 4) การประสานงาน (Interface): เชื่อมต่อระดับพื้น (Threshold) และงานไฟฟ้า Access Control"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.3_DoorClassification",
+      "module_id": "Module 3.3",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Swing Door",
+        "Sliding Door",
+        "Pivot Door",
+        "Windows"
+      ],
+      "authority_level": "Medium"
+    },
+    "content": "ประเภทประตูและการใช้งาน (Classification & Functionality): 1) บานเปิด (Swing Door): ต้องกำหนดตำแหน่งกันชน ระวังทิศทางการเปิดชนตู้/สวิตช์ 2) บานเลื่อน (Sliding Door): ประหยัดพื้นที่ แต่ถ้าเป็นบานซ่อน (Pocket Door) ห้ามเดินท่อระบบหรือยิงสกรูทะลุผนังส่วนนั้น และกันเสียงได้ไม่ดี 3) บานหมุน/สวิง (Pivot Door): ต้องเว้นช่องพื้นเพื่อฝังสปริง (Floor Spring Block-out) ตั้งระดับยากกว่า 4) หน้าต่าง (Windows): จุดตรวจสอบสำคัญคือการกันน้ำ (Sealant, Flashing, Weep hole) และความปลอดภัยของกระจก (Tempered/Laminated)"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.3_QCChecklist",
+      "module_id": "Module 3.3",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "QC Checklist",
+        "Hold Point",
+        "Pre-Installation",
+        "Final QC"
+      ],
+      "authority_level": "High"
+    },
+    "content": "จุดตรวจสอบเพื่อควบคุมคุณภาพประตู (Hold Points for QC Checklist): จุดที่ 1 ก่อนติดตั้ง (Pre-Installation): ต้องวัดขนาดช่องเปิดปูน (Rough Opening), ตรวจเช็คระดับดิ่ง-ฉาก, อ้างอิงเส้นระดับ Off-set line เทียบระดับพื้นผิวสำเร็จจริง และตรวจสอบการเสริมโครง/เสาเอ็นรอบช่องเปิด จุดที่ 2 ก่อนส่งมอบ (Handover / Final QC): ตรวจสอบช่องว่าง (Gaps) รอบบานให้สม่ำเสมอตามแบบ และตรวจสอบอุปกรณ์ฮาร์ดแวร์ติดตั้งครบถ้วน แน่นหนา ไม่มีรอยขีดข่วน"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.3_Rubric_AcousticDoor",
+      "module_id": "Module 3.3",
+      "chunk_type": "Rubric",
+      "topic_tags": [
+        "Assessment Rubric",
+        "Acoustic Door",
+        "Drop Seal",
+        "Undercut Gap"
+      ],
+      "authority_level": "High"
+    },
+    "content": "เกณฑ์ประเมิน Foreman (Assessment Rubric) กรณีประตูห้องประชุมกันเสียง (STC 45) มีช่องว่างใต้บาน (Undercut) 15 มม. แต่สเปก Drop Seal ทำงานได้แค่ 10 มม.: - ระดับ Junior: รู้ว่า 15 มม. กว้างเกินไป แจ้งหัวหน้า (ไม่พยายามปรับ Drop Seal จนพัง) - ระดับ Intermediate: ตรวจ Approved Shop Drawing เพื่อหาสาเหตุ ขอข้อมูล Supplier เรื่องการขยายระยะ Drop seal หรือเสนอใส่ธรณีประตู (Threshold) เสริม - ระดับ Senior: สั่งตรวจสอบประตู Acoustic ทุกบานในโครงการ (Containment) ออกคำสั่งห้ามส่งมอบห้อง (Hold Point) และหาสาเหตุที่แท้จริง (Root Cause) เช่น การถ่ายระดับพื้นผิดพลาด เพื่อป้องกันเกิดซ้ำ"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.3_CommonMistakes",
+      "module_id": "Module 3.3",
+      "chunk_type": "Common_Mistake",
+      "topic_tags": [
+        "Common Mistakes",
+        "Door Bowing",
+        "Closer Power",
+        "Access Control",
+        "Water Leakage"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ข้อผิดพลาดที่พบบ่อย (Common Mistakes) ในงานประตูหน้าต่าง: 1) บานประตูไม้โก่งจากอุณหภูมิที่ต่างกันสองฝั่ง (ต้องใช้วัสดุที่ทนสภาพอากาศ) 2) ใช้โช้คประตูขนาดไม่เหมาะสมหรือตั้งวาล์วแข็งเกินไป (ต้องดูสเปกน้ำหนักบาน) 3) ลืมทำธรณีประตูหรือกันซึมในห้องน้ำ/ระเบียง (ต้องเช็คระบบ Waterproofing) 4) ไม่ได้เจาะเตรียมช่องสำหรับ Access Control (Maglock/Strike) ตั้งแต่โรงงาน (ต้องทำ Hardware Coordination) 5) น้ำรั่วซึมหน้าต่างเพราะซิลิโคนไม่ดีหรือรูระบายน้ำตัน 6) ประตูปิดไม่สนิทมีแสง/เสียงลอด (ต้องเช็คระยะ Gap ตาม Shop Drawing)"
+  }
+]

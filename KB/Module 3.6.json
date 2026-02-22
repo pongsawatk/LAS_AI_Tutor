@@ -1,0 +1,93 @@
+[
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.6_CoreConcept",
+      "module_id": "Module 3.6",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "MEP Coordination",
+        "Interference Check",
+        "Zero Clash",
+        "4 Dimensions"
+      ],
+      "authority_level": "Medium"
+    },
+    "content": "หลักการสำคัญของ MEP Detail for Foreman (การประสานงานระบบ): คือการตรวจสอบความสัมพันธ์ระหว่างแบบตกแต่ง (ID) กับแบบงานระบบ (MEP) เพื่อให้ได้ 'Zero Clash' โดยต้องเคลียร์ให้จบก่อนปิดฝ้า/ผนัง ป้องกันการทำงานซ้ำ (Rework) โดยต้องตรวจสอบ 4 มิติ: 1) Fit (ใส่ได้ไหม - ไม่ชนคาน/ท่อ) 2) Fix (ซ่อมได้ไหม - มีช่องเซอร์วิส) 3) Follow Rules (ถูกกฎไหม - การกันไฟ/กฎอาคาร) 4) Match (ถูกใจไหม - ฟังก์ชันและความสวยงามตรงสเปก)"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.6_CoordinationHotspots",
+      "module_id": "Module 3.6",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Ceiling Coordination",
+        "Wall Coordination",
+        "Return Air",
+        "Service Access"
+      ],
+      "authority_level": "High"
+    },
+    "content": "จุดที่ต้องเช็คความสัมพันธ์ (Critical Coordination Points - Hotspots): 1) งานฝ้า (พื้นที่เสี่ยงสูงสุด): เช็คระยะความสูงแอร์และทางลาดท่อน้ำทิ้ง, ช่องลมกลับ (Return Air), ซ่อนช่องเซอร์วิสให้หลบมุมแต่ซ่อมได้จริง, และตำแหน่งสปริงเกอร์/Smoke Detector ต้องไม่ชนแพทเทิร์นฝ้า 2) งานผนัง: ตำแหน่งสวิตช์ไฟต้องสัมพันธ์กับลวดลายผนัง, บานเลื่อนซ่อน (Pocket Door) ห้ามฝังบล็อกไฟ, และผนังกันไฟห้ามเจาะช่องตามใจชอบ 3) งานพื้น: จุดเปลี่ยนระดับต้องไม่ขวางประตู, และกล่องปลั๊กฝังพื้น (Floor Box) ต้องไม่ชนขาโต๊ะและตรงตามแนวร่องกระเบื้อง"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.6_CheckProcess",
+      "module_id": "Module 3.6",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "Check Process",
+        "Overlay",
+        "Clash Log",
+        "Section Check",
+        "Site Mark-up"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ขั้นตอนการตรวจสอบ MEP & ID (Process: How to Check): 1) เตรียมเอกสาร: เช็ค Revision แบบ ID และ MEP ให้ตรงกัน และระบุพื้นที่เสี่ยง 2) ซ้อนแบบ (Overlay): นำแบบ RCP ซ้อนทับระบบต่างๆ แล้วจดบันทึกลง Clash Log 3) ดูรูปตัด (Section Check): กฎเหล็กคือห้ามดูแต่แปลน 2D ต้องวัดระยะดิ่ง (Vertical Clearance) ใต้คาน/ท่อ 4) เก็บหลักฐาน (Site Mark-up): ให้ช่างทำเครื่องหมาย (Mark) ตำแหน่งจริง ยิงเลเซอร์ระดับฝ้า แล้วถ่ายรูปเพื่อดูว่าพ้นหรือชน หากต้องแก้ให้ออกเอกสาร RFI ขออนุมัติ"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.6_Rubric_ACDuctClash",
+      "module_id": "Module 3.6",
+      "chunk_type": "Rubric",
+      "topic_tags": [
+        "Assessment Rubric",
+        "AC Duct Clash",
+        "Vertical Clearance"
+      ],
+      "authority_level": "High"
+    },
+    "content": "เกณฑ์ประเมิน Foreman (Assessment Rubric) กรณีท่อลมแอร์ 40ซม. ชนกับระยะเคลียร์ฝ้าที่เหลือเพียง 30ซม.: - ระดับ Junior: วัดระดับจริง ถ่ายรูป และแจ้งหัวหน้าพร้อมระบุค่าความต่าง (ไม่แจ้งปากเปล่า) - ระดับ Intermediate: เรียกช่างแอร์หารือทางเลือก (บีบท่อ vs เบี่ยงแนว) และวิเคราะห์ผลกระทบต่อ Cost/Time - ระดับ Senior: เสนอ Solution ที่รักษา Design Intent (เช่น ทำฝ้า Step ซ่อนท่อ) ทำ Sketch ส่ง Designer ขออนุมัติ และตรวจสอบผลกระทบต่อเนื่อง (Ripple Effect) ว่าการลดระดับฝ้าจะบังหัวสปริงเกอร์หรือไม่"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.6_PreCloseUpSignOff",
+      "module_id": "Module 3.6",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "Execution Checklist",
+        "Pre-Close-up",
+        "Sign-off",
+        "Test Passed"
+      ],
+      "authority_level": "High"
+    },
+    "content": "รายการตรวจสอบก่อนปิดงานฝ้าและผนัง (Hold Point: Pre-Close-up Sign-off): ห้ามปิดฝ้า/ผนังหากไม่ผ่านเกณฑ์ 1) แบบ ID และ MEP เป็นเวอร์ชันล่าสุด 2) ท่อและสายไฟติดตั้งครบ ยึด Support แข็งแรง 3) ผ่านการทดสอบแรงดันน้ำและไฟฟ้า (Test Passed) 4) มีช่องเซอร์วิสพร้อมใช้งาน 5) ยืนยันระยะห่างความสูง (Clearance Verified) พร้อมรูปถ่าย 6) อุดซีลรอยต่อทะลุผนังด้วยวัสดุกันไฟ (Firestop Sealed) โดยต้องมีการเซ็นรับรอง (Sign-off) ร่วมกันระหว่าง Foreman (ID), MEP Supervisor, และ PM ก่อนปิดแผ่น"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.6_CommonMistakes",
+      "module_id": "Module 3.6",
+      "chunk_type": "Common_Mistake",
+      "topic_tags": [
+        "Common Mistakes",
+        "Revision Mismatch",
+        "Missing Return Air",
+        "Condensate Slope",
+        "Firestop"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ข้อผิดพลาดที่พบบ่อย (Common Mistakes) ในการประสานงานระบบ (MEP): 1) แบบคนละเวอร์ชัน (Revision Mismatch): ID ปรับแบบแต่ MEP ใช้แบบเก่า ทำให้โคมไฟชนสปริงเกอร์ 2) ลืมทางลมกลับและช่องเซอร์วิส (Missing Return Air / Access): ทำให้แอร์ไม่เย็นหรือซ่อมไม่ได้ 3) ละเลยความลาดเอียงท่อน้ำทิ้ง (Ignored Condensate Slope): ติดตั้งท่อขนานพื้นทำให้น้ำขังและหยดใส่ฝ้า (ต้องเผื่อ Slope 1:100 เสมอ) 4) ละเลยการกันไฟ (Firestop Ignored): เดินท่อทะลุผนังกันไฟแล้วไม่อุดปิด ทำให้ผิดกฎหมายอาคาร"
+  }
+]

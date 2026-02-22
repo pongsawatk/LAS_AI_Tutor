@@ -1,0 +1,92 @@
+[
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.5_CoreConcept",
+      "module_id": "Module 3.5",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Special Room",
+        "Document Hierarchy",
+        "High Risk Room"
+      ],
+      "authority_level": "Medium"
+    },
+    "content": "หลักการสำคัญของแบบขยายห้องพิเศษ (Special Room Details): ห้องพิเศษมีความซับซ้อนสูง (เช่น ห้องประชุมผู้บริหาร, ล็อบบี้, ห้อง Server) ลำดับขั้นเอกสาร (Document Hierarchy) ต้องยึด 'แบบชุดห้องพิเศษ (Special Room Set)' เป็นเอกสารหลักในการทำงาน โดยเป็นพื้นที่ความเสี่ยงสูง 2 ด้าน คือ 1) ความเสี่ยงด้านความสวยงาม (High Aesthetic Risk) รอยต่อและแนวเส้นต้องแม่นยำ 2) ความเสี่ยงด้านประสิทธิภาพ (High Performance Risk) เช่น การกันเสียง, กันไฟ, และความปลอดภัย"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.5_SpecialRoomAnatomy",
+      "module_id": "Module 3.5",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Enlarged Plan",
+        "Internal Elevations",
+        "RCP",
+        "Schedules"
+      ],
+      "authority_level": "High"
+    },
+    "content": "องค์ประกอบของแบบห้องพิเศษที่ต้องศึกษา (Anatomy of Special Room Drawings): 1) แปลนขยาย (Enlarged Plan): ดูขนาดที่แม่นยำ, แนวเส้น (Grid Alignment), และจุดเริ่มต้นปูพื้น (Starting point) 2) รูปด้านภายใน (Internal Elevations): ดูระดับความสูง (AFF), การเรียงตัวของวัสดุ, และจุดที่ต้องการความแม่นยำสูง (ร่องเงา, ช่องทีวี) 3) RCP (แปลนฝ้าเฉพาะห้อง): ดูการจัดวางโคมไฟและช่องแอร์ให้ตรงดีไซน์ 4) งานเฟอร์นิเจอร์ (Joinery): ดูรอยต่อและช่องเซอร์วิส 5) ตารางต่างๆ (Schedules): ตารางรหัสวัสดุ, ประตู, และสัญลักษณ์อุปกรณ์"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.5_HolisticView",
+      "module_id": "Module 3.5",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "Holistic View",
+        "3-in-1",
+        "Acoustic Leak",
+        "Service Access",
+        "MEP Overlay"
+      ],
+      "authority_level": "High"
+    },
+    "content": "การมองพื้นที่แบบองค์รวมในห้องพิเศษ (The '3-in-1 + MEP Overlay' Focus): ต้องมอง ผนัง + ฝ้า + พื้น + ระบบ ประกอบกันเสมอ: 1) ผนัง: ต้องควบคุมเส้นทางเสียงรั่ว (Acoustic Leak Paths) และถ่ายรูปโครงเสริมผนังก่อนปิดแผ่น 2) ฝ้า: ระวังเรื่องระดับความสูง (Clear Height) และซ่อนช่องเซอร์วิสให้เนียนตาแต่ใช้งานได้จริง 3) พื้น: ดูลายแพทเทิร์นและการจัดวางปลั๊กฝังพื้น (Floor Box) 4) ระบบ (MEP Overlay): ต้องนำแบบ ID มาซ้อนทับแบบ MEP เพื่อหาจุดชน (Clash) ก่อนเริ่มงานเสมอ"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.5_Rubric_ServerRoom",
+      "module_id": "Module 3.5",
+      "chunk_type": "Rubric",
+      "topic_tags": [
+        "Assessment Rubric",
+        "Server Room",
+        "Fire Wall",
+        "Fire Stop"
+      ],
+      "authority_level": "High"
+    },
+    "content": "เกณฑ์ประเมิน Foreman (Assessment Rubric) กรณีช่างจะยิงแผ่นยิปซั่มธรรมดาในห้อง Server Room แทนการใช้ผนังกันไฟตามแบบ Special Detail: - ระดับ Junior: สั่งหยุดงานและแจ้งช่างว่าต้องใช้สเปกผนังกันไฟตามแบบขยาย - ระดับ Intermediate: ตรวจสอบข้อกำหนดว่าผนังต้องต่อเนื่องสมบูรณ์ (Continuous) ชนท้องพื้น และต้องใช้วัสดุกันลามไฟ (Fire Stop) อุดรอยต่อท่อ พร้อมทำเอกสารแจ้งเตือน (NCR) - ระดับ Senior: วางแผนเรื่องลำดับงาน (Sequence) ของระบบใต้พื้น (Raised Floor) และฝ้า ให้เสร็จและทดสอบผ่านก่อนปิดพื้นที่เข้าถึงยาก (Close-up)"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.5_HoldPoints",
+      "module_id": "Module 3.5",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "Execution Checklist",
+        "Hold Point",
+        "Pre-Construction",
+        "Before Close-up"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ขั้นตอนการตรวจสอบห้องพิเศษ (Execution Checklist & Hold Points): 1) ก่อนเริ่มงาน: ซ้อนแบบ ID+MEP หาจุดชน, และต้องอนุมัติ Mock-up/Sample ก่อน 2) ก่อนปิดพื้นที่ (Before Close-up): ตรวจสอบโครงเสริมรับน้ำหนัก, งานระบบติดตั้งเสร็จและทดสอบผ่าน (ถ่ายรูปเก็บหลักฐาน), และรอยต่อระบบกันไฟ/กันเสียง (Fire/Acoustic) ต้องซีลสมบูรณ์ 3) ก่อนส่งมอบ (Final QC): ตรวจสอบแนวเส้น/แพทเทิร์น (Alignment), ตำแหน่งอุปกรณ์ตรงตามดีไซน์, และเปิดใช้งานช่องเซอร์วิสได้จริง"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.5_CommonMistakes",
+      "module_id": "Module 3.5",
+      "chunk_type": "Common_Mistake",
+      "topic_tags": [
+        "Common Mistakes",
+        "Trade Damage",
+        "General Plan",
+        "Sequence Clash"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ข้อผิดพลาดที่พบบ่อย (Common Mistakes) ในห้องพิเศษ: 1) งานชนกันจนเสียหาย (Trade Damage): งานผนังเสร็จแล้วแต่ช่างระบบมาเจาะเพิ่มทำให้ผนังเป็นรอย (วิธีแก้: กำหนดจุดห้ามเจาะหลังงานเสร็จ 'No-Cut After Finish' และวางแผนลำดับงานให้ดี) 2) ใช้แบบผิดชุดสำหรับห้องพิเศษ (Using General Plan for Special Room): ช่างใช้แปลนรวมวัดระยะ ทำให้ระยะคลาดเคลื่อนใส่โต๊ะประชุมไม่ได้ (วิธีแก้: ต้องใช้ขนาดและระยะจาก 'แบบขยายพิเศษ Enlarged Plan' และเช็ค Revision ล่าสุดเท่านั้น)"
+  }
+]

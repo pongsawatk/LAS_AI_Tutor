@@ -1,0 +1,77 @@
+[
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.2_CoreConcept",
+      "module_id": "Module 3.2",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Interior Detail Essentials",
+        "Wall Ceiling Floor",
+        "Context Rule"
+      ],
+      "authority_level": "Medium"
+    },
+    "content": "หลักการสำคัญของรายละเอียดองค์ประกอบหลัก (Interior Detail Essentials: Partition, Ceiling, Floor): คือการเจาะลึกรายละเอียดการก่อสร้าง ผนัง (Wall), ฝ้า (Ceiling), และพื้น (Floor) เพื่อแยกรายการวัสดุและขั้นตอนการติดตั้ง กฎสำคัญคือ 'กฎเรื่องบริบท (The Context Rule)' การอ่าน Detail ต้องเข้าใจบริบทของห้องด้วย เช่น ห้องเก็บเสียงต้องใส่ฉนวน ห้องน้ำต้องใช้วัสดุทนชื้น เพื่อเลือกวัสดุให้ตรงกับฟังก์ชันการใช้งาน"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.2_WallSystems",
+      "module_id": "Module 3.2",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Partition",
+        "Gypsum Wall",
+        "Glass Partition",
+        "Masonry Wall",
+        "Wood Partition"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ระบบผนังและพาร์ทิชัน (Partition & Wall Systems) แบ่งเป็น: 1) ผนังเบายิปซั่ม: ต้องตรวจสอบความหนาแผ่น (9/12/15 มม.), โครงสังกะสี, ฉนวนกันเสียง (Rockwool/Polyester), และการฉาบรอยต่อ (ขอบลาด/ขอบเรียบ) 2) ผนังกระจก: เลือกกรอบ (U-Channel/Frame/Frameless) และชนิดกระจก (Tempered/Laminated/Float/IGU) 3) ผนังก่ออิฐ: มวลเบา/มอญ/บล็อก ต้องมีเสาเอ็นและทับหลังเสริม และต้องเช็คการรับน้ำหนักของโครงสร้างอาคาร 4) ผนังไม้/ไม้อัด: ใช้โครงไม้จริงทาน้ำยากันปลวก เหมาะกับงานเล่นระดับหรือยึดแขวนตู้"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.2_CeilingAndFloor",
+      "module_id": "Module 3.2",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Ceiling Systems",
+        "Floor Finishes",
+        "Ceiling Level",
+        "Transition Strip"
+      ],
+      "authority_level": "Medium"
+    },
+    "content": "ระบบฝ้าเพดานและงานพื้น (Ceiling & Floor Systems): งานฝ้าต้องตรวจสอบ 'ขนาดและระดับ' คือ 1) ระดับความสูงฝ้าว่าเคลียร์ท้องพื้นและงานระบบหรือไม่ 2) ระยะลึกและกว้างของหลืบไฟ (Light Cove) 3) รายละเอียดการเซาะร่องและวัสดุจบขอบ ส่วนงานพื้นต้องดู 1) สัญลักษณ์ระบุวัสดุ (Material Coding) ใน Plan 2) รอยต่อวัสดุ เช่น คิ้วจบ (Transition Strip) ระหว่างวัสดุต่างชนิด 3) ส่วนประกอบชั้นรองพื้น (Sub Floor) 4) ความหนารวมทั้งหมด (Total Thickness) เพื่อควบคุมระดับพื้นสำเร็จ"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.2_Rubric_GlassSpec",
+      "module_id": "Module 3.2",
+      "chunk_type": "Rubric",
+      "topic_tags": [
+        "Assessment Rubric",
+        "Glass Partition",
+        "Float Glass",
+        "Acoustic"
+      ],
+      "authority_level": "High"
+    },
+    "content": "เกณฑ์ประเมิน Foreman (Assessment Rubric) กรณีแบบแปลนเป็นผนังกระจกเปลือย (Frameless) สูง 3 เมตร แต่ BOQ ระบุเป็นกระจก Float 6 mm. เพื่อประหยัดงบ: - ระดับ Junior: รู้ว่า 6 mm. บางเกินไป และ Float Glass ไม่ปลอดภัย - ระดับ Intermediate: เสนอเปลี่ยนเป็น Tempered Glass 10-12 mm. อ้างอิงมาตรฐานความปลอดภัยและแจ้ง PM เรื่องส่วนต่างราคา - ระดับ Senior: ประเมินบริบทว่าห้องประชุมต้องการการกันเสียง (Acoustic) เสนอเปลี่ยนเป็น Laminated Glass หรือใส่ซีลกันเสียงที่รอยต่อกระจกเพื่อป้องกันเสียงลอด"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.2_CommonMistakes",
+      "module_id": "Module 3.2",
+      "chunk_type": "Common_Mistake",
+      "topic_tags": [
+        "Common Mistakes",
+        "Plan vs Detail Mismatch",
+        "Wrong Glass Ordering",
+        "Wall Reinforcement"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ข้อผิดพลาดที่พบบ่อย (Common Mistakes) ในงานพื้น ผนัง ฝ้า: 1) แบบ Plan กับ Detail ไม่ตรงกัน (Mismatch) รหัสอ้างอิงผิดพลาด (วิธีแก้: ตรวจสอบ Code ใน Plan เทียบกับหน้า Detail ทุกครั้ง) 2) สั่งกระจก Tempered ผิดขนาดเพราะลืมหักระยะร่อง U-Channel (วิธีแก้: กระจก Tempered ตัดหน้างานไม่ได้ ต้องรอติดตั้งเฟรมเสร็จแล้ววัดหน้างานจริง (Site Dimension) ก่อนสั่ง) 3) ลืมเสริมโครงผนังยิปซั่มสำหรับรับน้ำหนักทีวีหรือตู้แขวน (วิธีแก้: ต้องดูแบบ Furniture/Electrical แล้วเสริมไม้/เหล็กก่อนปิดแผ่นยิปซั่มบอร์ดเสมอ)"
+  }
+]

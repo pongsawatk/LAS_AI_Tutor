@@ -1,0 +1,78 @@
+[
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_4.3_CoreConcept",
+      "module_id": "Module 4.3",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Specification",
+        "Gatekeeper",
+        "Document Priority",
+        "Look-Alike Trap"
+      ],
+      "authority_level": "High"
+    },
+    "content": "หลักการสำคัญของข้อกำหนดวัสดุ (Material Specification & Quality Control): สเปกคือ 'กติกาด้านคุณภาพ' เพื่อให้งานมีความคงทนและเป็นมาตรฐานเดียวกัน Foreman ต้องทำหน้าที่เป็น 'Gatekeeper (ผู้เฝ้าประตู)' ป้องกัน 'กับดักหน้าตาเหมือนกัน (The Look-Alike Trap)' เช่น สแตนเลส 304 กับ 201 ที่หน้าตาเหมือนแต่คุณภาพต่าง กฎการใช้เอกสารคือ เรื่องคุณภาพยึด Spec+Approved Submittal ส่วนเรื่องตำแหน่งยึด Drawing หากสองอย่างนี้ขัดแย้งกัน ต้องหยุดและทำ RFI ห้ามเดาเอง"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_4.3_VerificationProcess",
+      "module_id": "Module 4.3",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "Verification Gates",
+        "Submittal",
+        "Mock-up",
+        "Control Sample",
+        "Inspection"
+      ],
+      "authority_level": "High"
+    },
+    "content": "กระบวนการตรวจสอบวัสดุ 3 ด่าน (The Verification Process: 3 Gates): ต้องมีหลักฐานทุกด่าน 1) Gate 1 ก่อนสั่งของ: ต้องยื่น Material Submittal และบันทึกสถานะลงทะเบียน 2) Gate 2 ก่อนผลิต/ก่อนเริ่มงาน: ต้องทำชิ้นงานตัวอย่าง (Mock-up) หรือขอ 'ตัวอย่างมาตรฐาน (Control Sample)' ที่มีลายเซ็น/วันที่ของผู้ออกแบบกำกับ 3) Gate 3 เมื่อของมาถึง: ตรวจรับเทียบกับ Approved Submittal และ Control Sample พร้อมบันทึก Incoming Inspection Record และถ่ายรูป Label"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_4.3_CriticalChecksAndNCR",
+      "module_id": "Module 4.3",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "Critical Material Checks",
+        "Quarantine",
+        "NCR",
+        "Hold Tag"
+      ],
+      "authority_level": "High"
+    },
+    "content": "เกณฑ์ตรวจรับและจัดการวัสดุผิดสเปก: จุดเช็คสำคัญ เช่น ไม้ต้องเช็คความชื้น (Moisture <= 10-12%), หิน/กระเบื้องเช็ค Lot Number ให้ตรงกัน, สีเช็คระบบ Primer/Topcoat เข้ากันได้, โลหะเช็คเกรด/ความหนาเต็มมิล หากพบวัสดุ Label ไม่ตรง/Lot ปน/หมดอายุ ห้ามนำเข้าพื้นที่ ให้ย้ายไปโซน 'QUARANTINE (พื้นที่กักกันสีแดง)' ติดป้าย 'HOLD / ห้ามใช้งาน' และเปิดเอกสาร NCR (Non-Conformance Report) ระบุปัญหาและการแก้ไข (เปลี่ยน/ซ่อม) พร้อมกำหนดเวลาแก้ให้ชัดเจน"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_4.3_Rubric_PaintModel",
+      "module_id": "Module 4.3",
+      "chunk_type": "Rubric",
+      "topic_tags": [
+        "Assessment Rubric",
+        "Paint Spec",
+        "Data Sheet",
+        "Approved Equivalent"
+      ],
+      "authority_level": "High"
+    },
+    "content": "เกณฑ์ประเมิน Foreman (Assessment Rubric) กรณีสีพ่นเฟอร์นิเจอร์มาส่ง หน้าตาคล้ายเดิมแต่รหัสรุ่น(Model) ไม่ตรงกับที่ Approved ไว้: - ระดับ Junior: สั่งหยุดงาน ไม่รับของ ย้ายไปโซน Quarantine ติดป้าย HOLD - ระดับ Intermediate: ขอ Data Sheet สีรุ่นใหม่มาเทียบคุณสมบัติหลัก (การยึดเกาะ, กันรอย) ว่าด้อยกว่าเดิมไหม ไม่ใช่แค่ดูชื่อ - ระดับ Senior: ประเมินเวลา หากต้องใช้จริงต้องขอ 'Approved Equivalent' ด่วน และสั่งพ่น 'Mock-up' เทียบกับ Control Sample ทันทีเพื่อยืนยันคุณภาพก่อนทำจริงทั้งหมด"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_4.3_CommonMistakes",
+      "module_id": "Module 4.3",
+      "chunk_type": "Common_Mistake",
+      "topic_tags": [
+        "Common Mistakes",
+        "Equivalent Trap",
+        "Mixing Batches",
+        "Ignoring Primer"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ข้อผิดพลาดที่พบบ่อยและกฎห้ามติดตั้ง (Do-Not-Install Rules & Mistakes): กฎคือ ห้ามติดตั้งหากไม่ผ่าน Approved Submittal, ขาด Control Sample หรือไม่ผ่าน Incoming Inspection ข้อผิดพลาดที่พบคือ 1) กับดักคำว่าเทียบเท่า (Or Equivalent Trap) Foreman อนุมัติเองหน้างาน (ห้ามเด็ดขาด ต้องมีเอกสารจาก Designer) 2) ผสมล็อตวัสดุ (Mixing Batches) ใช้สี/วอลล์/กระเบื้องต่างล็อตปนกันทำให้สีเพี้ยน 3) ละเลยสีรองพื้น (Ignoring Primer) ไม่ทาหรือใช้ผิดเบอร์ เป็นสาเหตุหลักที่ทำให้สีลอกร่อน"
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.1_CoreConcept",
+      "module_id": "Module 3.1",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Detail Drawing",
+        "Design Intent",
+        "Construction Reality"
+      ],
+      "authority_level": "Medium"
+    },
+    "content": "หลักการและใจความสำคัญของแบบขยาย (Detail Drawing): แบบขยายคือแบบที่ซูมเข้าไปยังจุดเฉพาะจาก Plan และ Elevation เพื่อแสดงรายละเอียดเชิงลึกที่แบบภาพรวมไม่สามารถบอกได้ เป้าหมายคือการเปลี่ยนจินตนาการของ Designer ให้สร้างได้จริงหน้างาน (Construction Reality) โดยระบุวิธีการประกอบ วัสดุที่ซ่อนอยู่ และเทคนิคการติดตั้งที่ถูกต้อง หากเปรียบเทียบ Plan/Elevation คือ 'แผนที่' ส่วน Detail Drawing คือ 'คู่มือการประกอบ'"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.1_DrawingAnatomy",
+      "module_id": "Module 3.1",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Detail Scale",
+        "Section View",
+        "Connection",
+        "Assembly Method"
+      ],
+      "authority_level": "Medium"
+    },
+    "content": "องค์ประกอบของแบบขยาย (Anatomy of Detail Drawings): 1) รูปแบบและมาตราส่วน: ใช้สเกลละเอียดมาก (เช่น 1:20, 1:10, 1:1) หน่วยเป็นมิลลิเมตร (mm.) มีเส้นซับซ้อนเพราะต้องแสดงวัสดุทุกชั้น 2) องค์ประกอบหลักที่ต้องมองหา: รูปตัดแบบเอ็กซ์เรย์ (Section View) ที่แสดงโครงสร้างภายใน, รอยต่อวัสดุ (Connection & Joints) เช่น การใช้คิ้วหรือร่อง, ชนิดวัสดุ (Material Spec), และ วิธีการประกอบ (Assembly Method) เช่น ใช้กาว, น็อต, หรือเชื่อม"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.1_Importance",
+      "module_id": "Module 3.1",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Structural Integrity",
+        "Aesthetic Accuracy",
+        "Functionality"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ความสำคัญของแบบขยาย (Why Foreman Needs Details): การละเลยแบบขยายเป็นต้นเหตุของงานบกพร่องและการทำงานซ้ำ (Rework) โดยส่งผลต่อ 3 เรื่องหลัก: 1) ความแข็งแรงของโครงสร้าง (Structural Integrity) เช่น การเสริมโครงไม้รับน้ำหนักตู้ลอยในผนังเบา 2) ความสวยงามตามการออกแบบ (Aesthetic Accuracy) เช่น การทำร่องเว้นระยะ (Reveal) ตามที่ Designer กำหนด 3) การใช้งาน (Functionality) เช่น ระยะมือจับซ่อน (J-Handle) ของเคาน์เตอร์"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.1_ReadingProcess",
+      "module_id": "Module 3.1",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "Reading Detail",
+        "Call-out",
+        "Analyze Layers",
+        "Fixing Method"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ขั้นตอนการอ่านแบบขยาย (How to Read Detail Drawings): 1) หาตำแหน่งของ Call-out (วงกลมระบุเลขแบบขยาย) ใน Plan/Elevation 2) ตรวจสอบสเกล (ห้ามใช้ไม้บรรทัดวัดจากกระดาษ ให้ดูตัวเลข Dimension เท่านั้น) 3) วิเคราะห์ชั้นของวัสดุจากนอกเข้าใน (Outside-In) คือ ผิวหน้า (Finish), ไส้ใน (Substrate), และโครงสร้าง (Structure) 4) ตรวจสอบวิธีการยึด (Fixing Method) เพื่อเตรียมอุปกรณ์ที่ต้องใช้"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.1_Rubric_HookClipSystem",
+      "module_id": "Module 3.1",
+      "chunk_type": "Rubric",
+      "topic_tags": [
+        "Assessment Rubric",
+        "Hook Clip System",
+        "Wall Reinforcement"
+      ],
+      "authority_level": "High"
+    },
+    "content": "เกณฑ์ประเมิน Foreman (Assessment Rubric) กรณีติดตั้งผนังตกแต่งหินอ่อนสูง 3 เมตร ด้วยระบบแขวนแห้ง (Hook Clip System): - ระดับ Junior: อ่านวัสดุออกและรู้ว่าต้องติดตั้งแบบแห้ง ไม่ใช่ปูนกาว - ระดับ Intermediate: ตรวจสอบหน้างานว่ามีโครงเหล็กรับน้ำหนักหิน (Sub-structure) หรือไม่ ถ้าไม่มีต้องสั่งทำก่อน - ระดับ Senior: คำนวณความหนารวมของ [โครงเหล็ก + หิน] ว่าจะล้ำออกมาเกินระยะใน Plan หรือไม่ เพราะ Detail มักกินพื้นที่มากกว่า Plan และประสานวิศวกรโครงสร้างเรื่องการรับน้ำหนัก"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.1_CommonMistakes",
+      "module_id": "Module 3.1",
+      "chunk_type": "Common_Mistake",
+      "topic_tags": [
+        "Common Mistakes",
+        "Standard Practice Trap",
+        "Hidden Dimensions",
+        "Scaling from Paper"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ข้อผิดพลาดที่พบบ่อย (Common Mistakes) ในการดูแบบขยาย: 1) กับดักความเคยชิน (Standard Practice Trap): คิดว่าเคยทำแบบนี้ตลอดเลยไม่ดู Detail (วิธีแก้: ต้องเช็ค Detail เสมอห้ามเดา เพราะ Designer อาจเปลี่ยนวิธีจบงาน) 2) มองข้ามมิติที่ซ่อนอยู่ (Ignoring Hidden Dimensions): ไม่เผื่อระยะโครงสร้างภายใน ทำให้กินพื้นที่ห้องหรือเฟอร์นิเจอร์เข้าไม่ได้ 3) วัดจากกระดาษ (Scaling from Paper): ห้ามใช้ไม้บรรทัดวัดระยะจากกระดาษเพราะสเกลอาจเพี้ยน ให้ยึดตัวเลข Dimension หรือออก RFI ถามเท่านั้น"
+  }
+]

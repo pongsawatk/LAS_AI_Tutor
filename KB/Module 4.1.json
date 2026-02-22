@@ -1,0 +1,78 @@
+[
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_4.1_CoreConcept",
+      "module_id": "Module 4.1",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Holy Trinity",
+        "Drawing",
+        "Specification",
+        "BOQ",
+        "Document Priority"
+      ],
+      "authority_level": "High"
+    },
+    "content": "หลักการสำคัญของเอกสารที่ใช้คู่กับแบบ (The Holy Trinity of Construction): การก่อสร้างมีสามเสาหลักคือ 1) แบบ (Drawing) บอกตำแหน่งรูปร่าง 2) สเปก (Specification) บอกคุณภาพและวิธีทำ 3) BOQ บอกราคาและขอบเขตงาน Foreman ต้องตรวจสอบไขว้ (Cross-check) ข้อมูลทั้งสามแหล่ง กฎเหล็กคือ 'หยุดเมื่อข้อมูลขัดแย้ง' ห้ามสั่งของหรือติดตั้งจนกว่าจะได้รับคำยืนยันเป็นลายลักษณ์อักษร (RFI/SI) และโดยทั่วไปเรื่องคุณภาพมักยึด 'สเปก/แบบ' สำคัญกว่า 'BOQ'"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_4.1_DocumentAnatomy",
+      "module_id": "Module 4.1",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "BOQ Traps",
+        "Material Schedule",
+        "Spec",
+        "Approved Equivalent"
+      ],
+      "authority_level": "Medium"
+    },
+    "content": "โครงสร้างและการใช้งานเอกสารเบื้องต้น: 1) BOQ (บัญชีแสดงปริมาณวัสดุและราคา) ใช้ดูขอบเขตงาน ระวังกับดักเรื่อง 'หน่วย' (เช่น เมตรหรือเส้น), สิ่งที่รวมในราคา, และการเผื่อสูญเสีย (Wastage) 2) Spec (รายการประกอบแบบ) ใช้ดูยี่ห้อและวิธีทำ หากจะใช้ของเทียบเท่าต้องมีเอกสาร 'Approved Equivalent' อนุมัติเสมอ 3) Material Schedule (ตารางรายการวัสดุ) ใช้เป็น Checklist เร่งด่วน แต่ต้องระวังเพราะตารางอาจไม่อัปเดตเท่า Shop Drawing หากขัดแย้งให้ยึด Spec หรือ Shop Drawing เป็นหลัก"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_4.1_TriangleCheckProcess",
+      "module_id": "Module 4.1",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "Triangle Check",
+        "Cross-check",
+        "Material Ordering",
+        "Revision"
+      ],
+      "authority_level": "High"
+    },
+    "content": "กระบวนการตรวจสอบแบบ 3 มิติ (The 'Triangle Check' Process) ก่อนสั่งของ: 1) Check Revision ดูว่าแบบ, สเปก, BOQ เป็นเวอร์ชันล่าสุดตรงกันไหม 2) Check Drawing ดูตำแหน่งรูปร่างและรหัสอ้างอิง 3) Check Spec ดูว่าวัสดุคืออะไร ยี่ห้ออะไร วิธีติดตั้งแบบไหน 4) Check BOQ ดูว่าปริมาณเท่าไหร่ งบต่อหน่วยสอดคล้องกับสเปกไหม 5) บันทึกผลลง Triangle Check Log หากข้อมูลไม่ตรงกันให้ระบุความเสี่ยงและส่งให้ PM ตัดสินใจ"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_4.1_Rubric_TileSpecClash",
+      "module_id": "Module 4.1",
+      "chunk_type": "Rubric",
+      "topic_tags": [
+        "Assessment Rubric",
+        "Tile Specification",
+        "Cost Impact",
+        "Variation Order"
+      ],
+      "authority_level": "High"
+    },
+    "content": "เกณฑ์ประเมิน Foreman (Assessment Rubric) กรณีแบบระบุกระเบื้อง 60x60 ลายหินอ่อน แต่ BOQ ระบุกระเบื้อง 30x30 เซรามิก (ราคาถูกกว่า): - ระดับ Junior: หยุดสั่งของทันทีและแจ้ง PM ว่าข้อมูลขัดแย้งกัน - ระดับ Intermediate: ตรวจสอบ PM ว่าโครงการยึดแบบหรือ BOQ เป็นหลัก และขอคำยืนยันเป็นลายลักษณ์อักษรก่อนสั่ง - ระดับ Senior: สั่งตรวจสอบทุกห้องในโครงการว่ามีปัญหานี้ไหม (Containment) และทำใบเปรียบเทียบราคา (Cost Impact) เสนอ PM เพื่อขอเก็บเงินเพิ่มลูกค้า (VO) หากต้องใช้ของแพงตามแบบ"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_4.1_ChecklistAndMistakes",
+      "module_id": "Module 4.1",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "Execution Checklist",
+        "Wastage Factor",
+        "Common Mistakes",
+        "General Notes"
+      ],
+      "authority_level": "High"
+    },
+    "content": "รายการตรวจสอบก่อนสั่งของ/เริ่มงาน และข้อผิดพลาดที่พบบ่อย: ก่อนสั่งต้องวัดหน้างานจริงบวก Wastage แล้วนำไปเทียบ BOQ, ตรวจสอบของที่ Owner ซื้อเอง, ดูเอกสาร Submittal Approved, และเช็ค Lead Time การส่งของ ข้อผิดพลาดที่พบบ่อย (Common Mistakes) คือ 1) สั่งของตาม BOQ เป๊ะๆ โดยไม่วัดหน้างาน (หน้างานคือความจริง BOQ คือสมมติฐาน) 2) ไม่อ่าน General Notes หรือ Method Statement ที่ซ่อนเงื่อนไขการรับประกันไว้ 3) ใช้ตาราง Schedule สั่งของโดยไม่เช็คอัปเดตจาก Shop Drawing ล่าสุด"
+  }
+]

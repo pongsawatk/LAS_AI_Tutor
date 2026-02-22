@@ -1,0 +1,105 @@
+[
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.4_CoreConcept",
+      "module_id": "Module 3.4",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Joinery",
+        "Built-in",
+        "Tolerance",
+        "Interface Management"
+      ],
+      "authority_level": "Medium"
+    },
+    "content": "หลักการสำคัญของงานเฟอร์นิเจอร์บิ้วอินและงานไม้ (Joinery / Millwork / Built-in): ไม่ใช่แค่สร้างให้สวย แต่ต้องบริหารจัดการ 'ระยะเผื่อ (Tolerance)' และ 'จุดต่อชน (Interface)' ให้ลงตัว โดยมี 3 เสาหลักแห่งความสำเร็จคือ 1) ระยะเผื่อและความสามารถในการปรับเปลี่ยนหน้างาน เพราะพื้นและผนังไม่เคยได้ฉาก 100% 2) การจัดการจุดเชื่อมต่อ (Interface) ต้องคิดล่วงหน้าว่าตู้จะชนฝ้า/พื้น/ปลั๊กอย่างไร 3) ขั้นตอนการอนุมัติ ต้องผ่าน Shop Drawing + Material Sample + Mock-up ก่อนผลิตเสมอ"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.4_JoineryAnatomy",
+      "module_id": "Module 3.4",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Dimensions",
+        "Compartments",
+        "Clearance",
+        "Edge Banding"
+      ],
+      "authority_level": "High"
+    },
+    "content": "องค์ประกอบของงาน Joinery ที่ต้องดูในแบบ (Anatomy of Joinery): 1) ขนาดและการใช้งาน: เช็คระยะลึกมาตรฐาน (ตู้เสื้อผ้า 600mm, ตู้หนังสือ 300-350mm) และระยะเคลียร์ภายในว่าใส่ของได้จริงไหม 2) จุดตรวจสอบสำคัญ 5 ประการ: ทิศทางการเปิดบาน (ชนผนัง/โคมไฟไหม), บัวเชิงล่าง (Toe-kick), การเผื่อระยะจบขอบ (Scribing/Filler), การปิดขอบ (Edge Banding สำคัญมากเพราะพังง่าย), และวิธีการยึด (โดยเฉพาะตู้ลอย) 3) การประสานระบบ: ตำแหน่งช่องเจาะปลั๊ก, หม้อแปลงไฟ (ต้อง Service ได้ห้ามฝังตาย), และช่องแผงเข้าถึงระบบ (Access Panels)"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.4_FinishingStrategy",
+      "module_id": "Module 3.4",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Finishing Materials",
+        "Performance",
+        "Repairability"
+      ],
+      "authority_level": "Medium"
+    },
+    "content": "กลยุทธ์การจัดการวัสดุปิดผิว (Finishing Materials Strategy): Foreman ต้องตั้งคำถาม 4 ข้อกับวัสดุทุกชนิด: Q1) ทนสภาพแวดล้อมไหม? (เช่น ใกล้น้ำห้ามใช้ Particle Board ให้ใช้ HMR/Plastwood) Q2) รอยต่อและขอบจบอย่างไร? (เช่น ลามิเนตเห็นเส้นดำไหม หินเข้ามุม 45 องศาบิ่นง่าย) Q3) ขนส่งและป้องกันอย่างไร? (เข้าลิฟต์ได้ไหม ต้องใช้ฟิล์มหรือน้ำยากันซึมไหม) Q4) ซ่อมหน้างานได้ไหม? (สีพ่น/หินเทียมขัดซ่อมได้ แต่ลามิเนต/กระจกต้องเปลี่ยนยกแผ่น)"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.4_HardwareFittings",
+      "module_id": "Module 3.4",
+      "chunk_type": "Rule",
+      "topic_tags": [
+        "Hardware Schedule",
+        "Fittings",
+        "Drawer Slides"
+      ],
+      "authority_level": "High"
+    },
+    "content": "กฎการจัดการอุปกรณ์ติดตั้งตู้บิ้วอิน (Fittings & Hardware): 'Hardware Schedule is Law' ต้องยึดตารางสเปกอย่างเคร่งครัด ระวังกับดัก 3 เรื่อง 1) ความเข้ากันได้ (Compatibility): บานเล็กไปใส่ Soft close จะเปิดยาก, มือจับยื่นเกินไปเปิดกระแทกผนัง 2) รางลิ้นชัก (Drawer Slides): แบบ Undermount ต้องเซาะร่องเฉพาะ, แบบ Heavy Duty ต้องใช้กับลิ้นชักใส่จาน/หม้อ (รับน้ำหนัก 30-50 kg+) 3) ความปลอดภัย (Safety): ตู้แขวนผนัง (Wall Unit) ต้องตรวจสอบสเปก Hanging Bracket และความแข็งแรงของผนังที่ยึดเกาะ"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.4_HoldPoints",
+      "module_id": "Module 3.4",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "Installation Checklist",
+        "Hold Point",
+        "Pre-Production",
+        "Scribing"
+      ],
+      "authority_level": "High"
+    },
+    "content": "รายการตรวจสอบการติดตั้งเฟอร์นิเจอร์ (Installation Checklist - Hold Points): 1) ก่อนผลิต: วัดพื้นที่จริงเทียบแบบ, อนุมัติ 3 รายการ (Shop Dwg + Sample + Hardware) 2) ก่อนเข้าติดตั้ง: พื้นที่ต้องพร้อม (ทาสี/ร้อยสายไฟเสร็จ) และปูวัสดุป้องกันทางเดิน 3) ระหว่างติดตั้ง: ตั้งตู้ให้ได้ระนาบ (Leveling), ไสไม้แต่งขอบตู้ให้เข้ากับผนังเอียง (Scribing - ห้ามใช้ซิลิโคนหนาๆ อุด), ยึดตู้ให้แข็งแรง 4) ก่อนส่งมอบ: ทดสอบการใช้งาน (Function Test) ตรวจสอบระยะช่องว่าง (Gap) ให้สม่ำเสมอ และแกะฟิล์มทำความสะอาด"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.4_Rubric_DrawerClash",
+      "module_id": "Module 3.4",
+      "chunk_type": "Rubric",
+      "topic_tags": [
+        "Assessment Rubric",
+        "Drawer Clash",
+        "Spacer",
+        "Systemic Fix"
+      ],
+      "authority_level": "High"
+    },
+    "content": "เกณฑ์ประเมิน Foreman (Assessment Rubric) กรณีลิ้นชักตู้เสื้อผ้าดึงออกไม่ได้เพราะติดความหนาของบานพับประตูตู้: - ระดับ Junior: รู้ว่ามีปัญหาและรายงานหัวหน้าทันที ห้ามตะไบลิ้นชักเอง - ระดับ Intermediate: เสนอให้ช่างเสริมไม้รองรางลิ้นชัก (Spacer) เพื่อขยับลิ้นชักหนีแนวบานพับ และเช็คสีไม้ให้กลืนกับตู้ - ระดับ Senior: ป้องกันระดับระบบ (Systemic Fix) โดยสั่งเช็ค Shop Drawing ของตู้ใบอื่นที่มีลิ้นชักแบบเดียวกัน และกำหนดกฎโครงการว่าตู้ที่มีลิ้นชักในตัวต้องใช้บานพับรุ่น 155 องศา (Zero protrusion) หรือใส่ Spacer มาจากโรงงาน"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.4_CommonMistakes",
+      "module_id": "Module 3.4",
+      "chunk_type": "Common_Mistake",
+      "topic_tags": [
+        "Common Mistakes",
+        "Condensation",
+        "MEP Clash",
+        "Ventilation"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ข้อผิดพลาดที่พบบ่อย (Common Mistakes) ในงาน Joinery: 1) ไม่ป้องกันความชื้นและน้ำควบแน่น (Condensation) จากแอร์ ทำให้ตู้ไม้บวมและเกิดเชื้อรา (วิธีแก้: ต้องมี Air Gap หรือบุฉนวนกันชื้นหลังตู้) 2) ไม่ตรวจสอบระยะเปิดบานว่าชนอุปกรณ์งานระบบ (Sprinkler/Smoke Detector) 3) เชื่อระยะในแบบ Detail มากเกินไปจนติดตั้งหน้างานไม่ได้ (ต้องวัดหน้างานจริงเสมอ) 4) ไม่เผื่อช่องระบายอากาศให้อุปกรณ์ไฟฟ้าในเฟอร์นิเจอร์ ทำให้เกิดความร้อนสะสมและพังเร็ว"
+  }
+]

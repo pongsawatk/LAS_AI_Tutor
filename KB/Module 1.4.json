@@ -1,0 +1,94 @@
+[
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_1.4_CoreConcept",
+      "module_id": "Module 1.4",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Drawing Integrations",
+        "Full Picture",
+        "Specification",
+        "BOQ",
+        "MEP"
+      ],
+      "authority_level": "Medium"
+    },
+    "content": "หลักการและใจความสำคัญของการบูรณาการแบบ (Seeing the Full Picture): คือการมองเห็นความสัมพันธ์ของเอกสารก่อสร้างทั้งระบบ ไม่ใช่แค่ดูแบบเพียงอย่างเดียว แต่ต้องเชื่อมโยงกับ Specification (คุณภาพ), MEP (ระบบประกอบ), และ BOQ (งบประมาณ) เป้าหมายเพื่อให้ Foreman สั่งของได้ถูกต้องและทำงานได้ราบรื่น เปรียบเทียบเหมือน Drawing คือรูปร่างกระดูก, MEP คืออวัยวะภายใน, Spec คือผิวหนังความสวยงาม, และ BOQ คือเชื้อเพลิงหรืองบประมาณ"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_1.4_KeyComponents",
+      "module_id": "Module 1.4",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Specification",
+        "MEP Clash",
+        "BOQ",
+        "Bill of Quantities"
+      ],
+      "authority_level": "High"
+    },
+    "content": "องค์ประกอบที่ต้องดูคู่กับแบบ (Key Components): 1) Specification (รายการประกอบแบบ): ระบุคุณภาพวัสดุ เช่น ชื่อวัสดุ, ขนาด, Supplier และที่สำคัญที่สุดคือ Installation Manual (ข้อควรระวังในการติดตั้ง) 2) MEP (ระบบประกอบอาคาร): ต้องเช็คจุดเชื่อมต่อ เช่น แอร์(สัมพันธ์กับฝ้า), ไฟฟ้า(ปลั๊กจมตู้, โคมไฟตรงกลาง), สุขาภิบาล(ท่อระบายน้ำตรงลายกระเบื้อง), ระบบป้องกันไฟ 3) BOQ: ใช้เพื่อดูปริมาณรวมและตรวจสอบ Scope ว่าใครเป็นผู้จัดหาวัสดุ (Contractor หรือ By Owner)"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_1.4_IntegrationProcess",
+      "module_id": "Module 1.4",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "Integration Process",
+        "Material Ordering",
+        "RFA Verification",
+        "Cross-Check"
+      ],
+      "authority_level": "High"
+    },
+    "content": "กระบวนการทำงานแบบบูรณาการ (The Integration Process): 1) จาก For-Con ไปสู่ Shop Drawing Foreman ต้องเช็คว่า Drafter ระบุสเปกวัสดุตรงตามที่ Designer กำหนด 2) การตรวจสอบใบขออนุมัติวัสดุ (RFA Verification) ต้องอ่าน Note/Comment เสมอเพื่อตรวจสอบเงื่อนไขเพิ่มเติม 3) ขั้นตอนสั่งซื้อวัสดุ (Material Ordering Protocol) ก่อนเปิดใบขอซื้อ (PR) ต้องทำ Cross-Check 3 ทาง คือ เช็ค Drawing (เพื่อดูสเปก/ตำแหน่ง) เช็ค Site (วัดหน้างานจริง) และ เช็ค BOQ (เทียบงบประมาณ)"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_1.4_DiscrepancyManagement",
+      "module_id": "Module 1.4",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "Discrepancy Management",
+        "As-built Error",
+        "Estimation Error",
+        "Wastage Factor"
+      ],
+      "authority_level": "High"
+    },
+    "content": "การจัดการเมื่อข้อมูลขัดแย้งกัน (Discrepancy Management) หากพบว่าหน้างานจริงใช้วัสดุมากกว่า BOQ Foreman ต้องระบุสาเหตุ: 1) As-built Error (แบบตั้งต้นผิด): ให้แจ้ง PM เพื่อขอเคลมงานเพิ่ม (VO) เพราะพื้นที่จริงใหญ่กว่าแบบ 2) Estimation Error (QS ถอดแบบผิดพลาด): แจ้ง PM/QS เพื่อขออนุมัติงบ Cost Overrun 3) Wastage Factor (เผื่อเสียไม่พอ): เช่น หน้างานต้องตัดเศษเยอะกว่าปกติ ให้หาวิธีปรับการปูเพื่อลดเศษ หรือแจ้ง PM เพื่อขอจัดสรรงบเพิ่ม"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_1.4_Rubric_TileOrdering",
+      "module_id": "Module 1.4",
+      "chunk_type": "Rubric",
+      "topic_tags": [
+        "Assessment Rubric",
+        "Tile Ordering",
+        "BOQ Discrepancy",
+        "Variation Order"
+      ],
+      "authority_level": "High"
+    },
+    "content": "เกณฑ์ประเมิน Foreman (Assessment Rubric) กรณีคำนวณพื้นที่หน้างานได้ 100 ตร.ม. แต่ BOQ ระบุแค่ 80 ตร.ม.: - ระดับ Junior: หยุดไม่สั่งของทันที และแจ้งหัวหน้า - ระดับ Intermediate: ค้นหาสาเหตุ (Root Cause) ว่าเราคิดเผื่อพลาด หรือแบบ As-built ผิด หรือ QS ถอดผิด - ระดับ Senior: เสนอทางแก้ หากเป็น As-built ผิดเตรียมข้อมูลขอเบิกเพิ่ม (VO) หาก QS ผิดต้องเจรจา Supplier ขอลดราคา หรือบริหารการปูให้คุ้มค่าที่สุด เพื่อรักษาผลประโยชน์ของบริษัท"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_1.4_CommonMistakes",
+      "module_id": "Module 1.4",
+      "chunk_type": "Common_Mistake",
+      "topic_tags": [
+        "Common Mistakes",
+        "Order by BOQ",
+        "Installation Spec",
+        "MEP Clash",
+        "By Owner"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ข้อผิดพลาดที่พบบ่อย (Common Mistakes) ในการดูแบบบูรณาการ: 1) สั่งของตามตัวเลข BOQ เป๊ะๆ โดยไม่วัดหน้างาน (วิธีแก้: วัดหน้างานจริง + Wastage แล้วค่อยเทียบกับ BOQ) 2) ไม่อ่านคู่มือติดตั้ง (Installation Spec) ทำให้งานพังภายหลัง 3) มองไม่เห็นงานระบบ (MEP Clash Blindness) สั่งผลิตตู้แต่ลืมดูว่าชนปลั๊กหรือแอร์ (วิธีแก้: ต้อง Overlay แบบซ้อนกันก่อนสั่งทำ) 4) คิดว่าของที่ลูกค้าจัดหา (By Owner) จะมาทันโดยไม่ติดตามทวงถาม ทำให้งานสะดุด (วิธีแก้: ขอ Spec ล่วงหน้าเพื่อดูระยะทำท่อ และเตือนลูกค้าล่วงหน้า 2-3 สัปดาห์ก่อนติดตั้ง)"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.7_CoreConcept",
+      "module_id": "Module 3.7",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Work Sequence",
+        "Planning Skill",
+        "Readiness",
+        "Close-up Discipline"
+      ],
+      "authority_level": "Medium"
+    },
+    "content": "หลักการสำคัญของการอ่านแบบเพื่อลำดับขั้นตอนงาน (Sequence Checking from Drawing): เป็นทักษะหลักของการบริหารงานก่อสร้าง โดยมีเป้าหมายคือ 'ลำดับงาน = ความพร้อม + วินัยในการปิดงาน' งานขั้นถัดไปจะเริ่มได้ก็ต่อเมื่องานก่อนหน้าเสร็จสมบูรณ์ และห้ามปิดฝ้า/ผนัง/พื้น หากยังไม่ตรวจสอบผ่าน โดยใช้แนวคิด 'ชั้นของเวลา (Layers of Time)' คือเริ่มจาก: โครงสร้างหลัก -> งานระบบเบื้องต้น -> ทดสอบ -> วัสดุรองรับ -> วัสดุตกแต่ง -> อุปกรณ์ประกอบ"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.7_CeilingWallSequence",
+      "module_id": "Module 3.7",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "Ceiling Sequence",
+        "Wall Sequence",
+        "Rough-in MEP",
+        "Reinforcement"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ลำดับงานฝ้าและผนัง (Ceiling & Wall Sequence): 1) งานฝ้า: แขวนลวด/ท่อระบบ (First Fix) -> ติดโครง C-Line -> ตรวจสอบความพร้อม (Slope ท่อ, Pressure Test) -> ปิดแผ่นฝ้าพร้อมเจาะช่องตามแม่แบบ (Template) -> ทาสี -> ติดตั้งหน้ากากแอร์/โคมไฟ (Second Fix) 2) งานผนัง: ตั้งโครงคร่าว -> เดินท่อร้อยสายไฟและเสริมไม้รับน้ำหนักตู้ (Reinforcement) -> ปิดแผ่นด้านเดียว -> อุดยาแนวกันเสียง/กันไฟ (Acoustic/Firestop) -> ใส่ฉนวนและปิดแผ่นอีกด้าน -> งานตกแต่งและงานเฟอร์นิเจอร์ (Joinery)"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.7_FloorJoinerySequence",
+      "module_id": "Module 3.7",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "Floor Sequence",
+        "Joinery Sequence",
+        "Waterproof Test",
+        "Off-site Production"
+      ],
+      "authority_level": "Medium"
+    },
+    "content": "ลำดับงานพื้นและเฟอร์นิเจอร์ (Floor & Joinery Sequence): 1) งานพื้น: ปรับระดับเผื่อความหนาวัสดุ (Screed) -> กำหนดระดับพื้นสำเร็จ (FFL) พื้นที่เปียกต้องทำ Flood Test ก่อน, วัสดุอ่อนเช่น พรม/ไม้/ลามิเนต ต้องทำเป็นลำดับสุดท้ายเสมอ 2) งาน Joinery: การผลิตนอกไซต์เริ่มได้เมื่อ Approved Shop Dwg + Sample + วัดหน้างาน ครบถ้วน ส่วนการติดตั้งในไซต์ต้องรอให้พื้นที่ 'แห้งและสะอาด' ติดตั้งเสร็จต้องหุ้มป้องกันทันที (Protection Plan) ห้ามปล่อยเปลือยให้ช่างอื่นทำความเสียหาย"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.7_Rubric_FeatureWall",
+      "module_id": "Module 3.7",
+      "chunk_type": "Rubric",
+      "topic_tags": [
+        "Assessment Rubric",
+        "Feature Wall",
+        "LED Light",
+        "Sequence"
+      ],
+      "authority_level": "High"
+    },
+    "content": "เกณฑ์ประเมิน Foreman (Assessment Rubric) กรณีทำ Feature Wall หินอ่อนซ่อนไฟ LED และแขวนทีวี: - ระดับ Junior: ลำดับงานพื้นฐานถูก (เดินสายไฟ/เสริมไม้ -> ปิดผนัง -> ติดหิน -> ติดทีวี) - ระดับ Intermediate: รู้รายละเอียดความพร้อม (Test ไฟ LED ก่อนปิดผนังหิน และทาสีเพดานให้เสร็จก่อนกันสีหยด) - ระดับ Senior: ประสานงานเรื่อง Driver ไฟที่ต้อง Service ได้, วางแผนแนวร่องหิน (Joint) ให้ตรงฝ้า, และถ่ายรูปเก็บเป็นหลักฐานการเสริมไม้รับทีวีและจุดซ่อน Driver"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.7_DoNotCloseUpRules",
+      "module_id": "Module 3.7",
+      "chunk_type": "Rule",
+      "topic_tags": [
+        "Do-Not-Close-Up",
+        "Execution Checklist",
+        "Sign-off"
+      ],
+      "authority_level": "High"
+    },
+    "content": "กฎเหล็ก 'ห้ามปิดงาน' (Do-Not-Close-Up Rules) ก่อนปิดฝ้า ผนัง และปูพื้น: ต้องผ่าน Checklist และมีการเซ็นรับรอง (Sign-off) ทุกครั้ง A) ฝ้า/ผนัง: งานระบบยึดแน่นหนา, ผลทดสอบน้ำและไฟฟ้าผ่านเกณฑ์, ไม้เสริมรับน้ำหนัก(Blocking) ครบ, ช่องเซอร์วิสใช้งานได้จริง, และมีการถ่ายรูปเก็บเป็นหลักฐานครบถ้วน B) งานปูพื้น: พื้นปรับระดับ (Screed) ได้ระดับ, ผ่านการทดสอบขังน้ำ (สำหรับห้องน้ำ), และท่อใต้พื้นถูกตรวจสอบอนุมัติแล้ว"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_3.7_CommonMistakes",
+      "module_id": "Module 3.7",
+      "chunk_type": "Common_Mistake",
+      "topic_tags": [
+        "Common Mistakes",
+        "Revision Mismatch",
+        "Dust Protection",
+        "Paint then Patch",
+        "Flooring Too Early"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ข้อผิดพลาดที่พบบ่อย (Common Mistakes) ในลำดับขั้นตอนงาน: 1) แบบไม่ตรงกัน (Revision Mismatch) ทำให้ฝ่าย ID, MEP และเฟอร์นิเจอร์ผลิตของมาไม่พอดีกัน 2) ล้มเหลวในการป้องกันฝุ่น (Dust Protection Failure) เช่น ติดตู้เสร็จแล้วช่างไม้มาขัดพื้นทำให้ฝุ่นคลุ้ง 3) ทาสีก่อนแล้วเจาะทีหลัง (Paint then Patch) ลืมเดินสายไฟทำให้ต้องเจาะผนังที่ทำสีเสร็จแล้ว (ต้องเช็คแปลนไฟคู่ผนังเสมอ) 4) ปูพื้นเร็วเกินไป (Flooring Too Early) ทำให้พื้นไม้เสี่ยงต่อความเสียหาย (พรมและพื้นไม้ต้องเป็นงานสุดท้ายเสมอ)"
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_4.2_CoreConcept",
+      "module_id": "Module 4.2",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "BOQ",
+        "Bill of Quantities",
+        "Cost Control",
+        "Golden Rules"
+      ],
+      "authority_level": "High"
+    },
+    "content": "หลักการสำคัญของการใช้งานบัญชีปริมาณงาน (BOQ Essentials for Foreman): BOQ คือบัญชีแสดงรายการวัสดุและค่าแรง เป็นคัมภีร์ควบคุมงบและขอบเขตงาน กฎเหล็ก 3 ข้อคือ 1) คุณภาพยึดแบบ/สเปก ต้นทุนยึด BOQ 2) หากข้อมูลขัดแย้งให้หยุดและรอ RFI/SI ห้ามสั่งของ 3) ต้องใช้ Budget BOQ 'เวอร์ชันล่าสุด' เท่านั้น การใช้ฉบับร่างเก่าเป็นหายนะทางการเงิน โดยประเภท BOQ ที่ Foreman ต้องถือหน้างานคือ 'Budget BOQ' เพื่อใช้สั่งของและจ้างซับคอนแทรคเตอร์ (ห้ามใช้ Sale BOQ ที่มีกำไรให้ซับเห็นเด็ดขาด)"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_4.2_DataAnatomy",
+      "module_id": "Module 4.2",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Hidden Item",
+        "Hidden Cost Log",
+        "Unit Trap",
+        "Unit Rate"
+      ],
+      "authority_level": "High"
+    },
+    "content": "โครงสร้างข้อมูลและจุดสำคัญใน BOQ (Data Anatomy): Foreman ต้องวิเคราะห์รายการ 3 ส่วน 1) Item & Location: เช็ครายการตรงตามแบบ และระวัง 'รายการแฝง (Hidden Item)' เช่น นั่งร้าน โครงเหล็ก ถ้าไม่มีใน BOQ ให้ลงบันทึก 'Hidden Cost Log' ขออนุมัติ PM 2) Quantity & Rules: ระวัง 'กับดักหน่วย (Unit Trap)' เช่น ตารางเมตรสับสนกับกล่อง, เมตรยาวหรือชิ้น 3) Unit Rate: ราคาต่อหน่วยใช้คุมค่าวัสดุและค่าแรง"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_4.2_WastageStrategy",
+      "module_id": "Module 4.2",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "Wastage",
+        "Lot Risk",
+        "Shade Variation",
+        "Batch Ordering"
+      ],
+      "authority_level": "Medium"
+    },
+    "content": "ศาสตร์การเผื่อวัสดุ (Wastage Strategy): การเผื่อวัสดุต้องมีมาตรฐาน ตารางแนะนำคือ กระเบื้อง 5-10% (ขึ้นกับ Pattern), หินธรรมชาติ 10-20% (ต้องทำลายต่อ/Book-match), ไม้พื้น 5-12% (ลายก้างปลาเสียเศษเยอะ), วอลล์เปเปอร์ 10-15%, และสี 5-10% สิ่งที่ต้องระวังที่สุดคือ 'ความเสี่ยงเรื่องล็อตผลิต (Lot/Batch Risk)' วัสดุที่มีเฉดสี (กระเบื้อง, หิน, สี, วอลล์) ต้องสั่งให้พอในล็อตเดียวกัน ห้ามทยอยสั่ง เพราะถ้าล็อตใหม่สีเพี้ยนต้องรื้อทำใหม่ทั้งห้อง"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_4.2_Rubric_MarbleWastage",
+      "module_id": "Module 4.2",
+      "chunk_type": "Rubric",
+      "topic_tags": [
+        "Assessment Rubric",
+        "Marble Herringbone",
+        "Wastage Issue",
+        "Dry Lay Plan"
+      ],
+      "authority_level": "High"
+    },
+    "content": "เกณฑ์ประเมิน Foreman (Assessment Rubric) กรณีปูหินอ่อนนำเข้าลายก้างปลา แต่ BOQ เผื่อ Wastage ไว้แค่ 10%: - ระดับ Junior: สั่งตามงบ BOQ เป๊ะ ทำให้หินไม่พอ งานสะดุด ได้หินล็อตใหม่สีเพี้ยน - ระดับ Intermediate: คำนวณเศษจริง แจ้ง PM พร้อมแนบ Shop Drawing ขออนุมัติสั่งเพิ่มเป็น 15-20% (ได้ของครบแต่ใช้งบเพิ่ม) - ระดับ Senior: คุมงบด้วยการทำ 'Dry Lay Plan' เพื่อหมุนเศษหินมาใช้อย่างคุ้มค่า เจรจา Supplier ขอจองสต็อกล็อตเดียวกัน หรือเจรจาขอคืนของส่วนที่เหลือ เพื่อปิดความเสี่ยงเรื่องเฉดสี"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_4.2_CommonMistakes",
+      "module_id": "Module 4.2",
+      "chunk_type": "Common_Mistake",
+      "topic_tags": [
+        "Common Mistakes",
+        "Splitting Orders",
+        "Labor Productivity",
+        "Hidden Consumables"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ข้อผิดพลาดที่พบบ่อย (Common Mistakes) ในการจัดการ BOQ: 1) การแบ่งคำสั่งซื้อ (Splitting Orders) ทยอยสั่งกระเบื้องทีละห้องเพื่อประหยัดกระแสเงินสด เสี่ยงได้ของคนละล็อตสีไม่ตรง 2) ค่าแรงเกินประมาณการ (Labor Productivity Drift) ช่างทำนานเกินวันที่ตั้งไว้ใน BOQ กำไรจะหาย (วิธีแก้: ต้องกำหนดมาตรฐานทำงานต่อวันและติดตามรายสัปดาห์) 3) ลืมวัสดุสิ้นเปลือง (Hidden Consumables) เช่น สั่งกระเบื้องครบแต่ลืมปูนกาว/ยาแนว ต้องเช็คเงื่อนไข Inclusions ใน BOQ เสมอ"
+  }
+]

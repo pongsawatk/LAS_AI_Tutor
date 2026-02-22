@@ -1,0 +1,93 @@
+[
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_1.2_CoreConcept",
+      "module_id": "Module 1.2",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Drawing Types",
+        "Site Management",
+        "Discipline",
+        "Title Block"
+      ],
+      "authority_level": "Medium"
+    },
+    "content": "หลักการสำคัญของการจัดการแบบก่อสร้าง (Types of Construction Drawings & Site Management): คือการแยกแยะประเภทของแบบก่อสร้างตาม 'ช่วงเวลา (Stage)' และ 'หมวดงาน (Discipline)' เป้าหมายเพื่อให้ Foreman หยิบแบบมาใช้งานได้ถูกวัตถุประสงค์ และประสานงานกับช่างระบบ (MEP) ได้โดยงานไม่ตีกัน กฎทอง (Golden Rule) ที่สำคัญที่สุดคือ 'อ่าน Title Block ก่อนเสมอ' อย่าเชื่อแค่รูปภาพ ต้องดูสถานะ (Status) และวันที่ (Date) ว่าเป็นเวอร์ชันล่าสุดหรือไม่"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_1.2_ClassificationByStage",
+      "module_id": "Module 1.2",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "Tender Drawing",
+        "IFC Drawing",
+        "Shop Drawing",
+        "As-Built Drawing"
+      ],
+      "authority_level": "High"
+    },
+    "content": "การแบ่งประเภทของแบบตามสถานะ (Classification by Stage): Foreman ต้องแยกแบบ 4 ประเภทให้ออก 1) Tender Drawing (แบบประมูล): รายละเอียดไม่ครบ ห้ามนำมาสร้างจริงเด็ดขาด 2) IFC Drawing (Issued For Construction): แบบอนุมัติก่อสร้างตามสัญญา เป็นคัมภีร์หลักของโครงการ 3) Shop Drawing (แบบเคลียร์หน้างาน): แบบที่ทีม Creful เขียนขึ้นใหม่จากระยะจริง ใช้เป็นแบบหลักในการสั่งงานและสั่งของหลังได้รับอนุมัติ 4) As-Built Drawing (แบบจริงหลังสร้างเสร็จ): แบบที่แก้ไขตรงกับหน้างานจริงทุกประการเพื่อส่งมอบและใช้ซ่อมบำรุง"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_1.2_ClassificationByDiscipline",
+      "module_id": "Module 1.2",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Discipline",
+        "ID",
+        "Arch",
+        "MEP",
+        "Clash"
+      ],
+      "authority_level": "Medium"
+    },
+    "content": "การแบ่งประเภทของแบบตามระบบงาน (Classification by Discipline): 1) ID (งานตกแต่งภายใน): ประกอบด้วย Plan, RCP (ผังฝ้าเพดาน), Elevation, Section และ Detail 2) Arch (งานสถาปัตย์/โครงสร้าง): ดูระยะแนวเสา โครงสร้าง พื้น Post-tension (ห้ามเจาะ) 3) MEP (งานระบบ): จุดที่มักชน (Clash) กับ ID มากที่สุด ได้แก่ แอร์ (AC) ที่มักชนกับระดับฝ้า, ไฟฟ้า (Electrical) ระวังปลั๊กจมเฟอร์นิเจอร์, สุขาภิบาล (Plumbing) ระวังระดับพื้นห้องน้ำ, และป้องกันอัคคีภัย (Fire Protection) ที่ห้ามย้ายตำแหน่งเองโดยเด็ดขาด"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_1.2_SiteManagementProcess",
+      "module_id": "Module 1.2",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "Site Management",
+        "Drawing Protocol",
+        "Update Drawing",
+        "VOID"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ขั้นตอนปฏิบัติในการจัดการแบบหน้างาน (Creful Drawing Protocol): 1) รับและตรวจสอบ: ตรวจสอบ Drawing Transmittal เสมอ 2) อัปเดตและแจกจ่าย: ทันทีที่มีการพิมพ์แบบใหม่ (Plot) มีกฎการทำงาน (SOP) สำคัญคือ 'ต้องนำแบบเก่าออกจาก Rack และปั๊มตรา VOID/ยกเลิก ทันที' 3) การสื่อสาร: นำแบบที่มีปัญหามาเคลียร์ใน Weekly Meeting และก่อนสั่งของสำคัญต้องยืนยันกับ PM เสมอว่าแบบที่ใช้เป็นเวอร์ชัน Final (ห้ามดาวน์โหลดไฟล์จาก Line ไปใช้ทำงานจริง ให้ใช้จาก Server กลางเท่านั้น)"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_1.2_Rubric_MEPClash",
+      "module_id": "Module 1.2",
+      "chunk_type": "Rubric",
+      "topic_tags": [
+        "Assessment Rubric",
+        "MEP Clash",
+        "Combine Drawing",
+        "AC Duct"
+      ],
+      "authority_level": "High"
+    },
+    "content": "เกณฑ์ประเมิน Foreman (Assessment Rubric) กรณีท่อแอร์ (AC) ชนกับฝ้าหลุม: - ระดับ Junior: รู้ว่าต้องเปิดแบบ ID (RCP) คู่กับแบบ MEP เพื่อดูตำแหน่งซ้อนทับ - ระดับ Intermediate: สามารถนำแบบมาซ้อนกัน (Overlay) วัดระยะดิ่งหน้างานจริง Mark up จุดที่ชนและแจ้งหัวหน้าได้ - ระดับ Senior: สามารถเสนอแนวทาง 'Combine แบบ' เช่น ขอ Designer ลดระดับฝ้า หรือขอวิศวกรแอร์เปลี่ยนรูปทรงท่อ และเขียน RFI เสนอทางเลือกเพื่อขออนุมัติก่อนลงมือทำ (ไม่ตัดสินใจทุบหรือแก้เองโดยไม่ขออนุมัติ)"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_1.2_CommonMistakes",
+      "module_id": "Module 1.2",
+      "chunk_type": "Common_Mistake",
+      "topic_tags": [
+        "Common Mistakes",
+        "Tender Drawing",
+        "Elevation",
+        "LINE app"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ข้อผิดพลาดที่พบบ่อย (Common Mistakes) ในเรื่องประเภทแบบหน้างาน: 1) นำ Tender Drawing ไปให้ช่างตีราคาหรือสั่งของ (วิธีแก้: ต้องใช้ Shop Drawing หรือ Approved IFC เท่านั้น) 2) ดูเฉพาะแบบ Plan จากมุมบน แต่ลืมดู Elevation/Section ด้านข้าง ทำให้ทำงานผิดพลาด (วิธีแก้: ต้องมองแบบให้เป็น 3 มิติ ครบทุกมุม) 3) เชื่อไฟล์ใน LINE ที่ส่งต่อกันมา (วิธีแก้: ไฟล์ใน LINE ไม่น่าเชื่อถือ 100% ต้องเช็คจาก Server กลาง หรือแบบพิมพ์ที่มีตราประทับล่าสุดเท่านั้น)"
+  }
+]

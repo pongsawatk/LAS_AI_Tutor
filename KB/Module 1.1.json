@@ -1,0 +1,126 @@
+[
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_1.1_CoreConcept",
+      "module_id": "Module 1.1",
+      "chunk_type": "Concept",
+      "topic_tags": [
+        "Drawing Workflow",
+        "Life Cycle of Drawings",
+        "Rework",
+        "Foreman Role"
+      ],
+      "authority_level": "Medium"
+    },
+    "content": "หลักการและใจความสำคัญของ Drawing Workflow (กระบวนการพัฒนาและส่งต่อแบบก่อสร้าง): คือกระบวนการตั้งแต่เริ่มออกแบบจนถึงส่งมอบงาน เป้าหมายเพื่อให้ Foreman เข้าใจที่มาของแบบก่อสร้างว่ามาจากไหน มีสถานะอย่างไร และต้องทำอะไรต่อเพื่อให้ก่อสร้างได้จริงโดยไม่เกิด Rework (การทำงานซ้ำ) เนื่องจากงานก่อสร้าง Interior มีรายละเอียดซับซ้อนและเปลี่ยนแปลงง่าย การเข้าใจ Workflow จะช่วยให้ Foreman รู้ว่า 'เมื่อไหร่ควรหยุดรออนุมัติ' และ 'เมื่อไหร่ควรดำเนินงานต่อ'"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_1.1_Phase1and2",
+      "module_id": "Module 1.1",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "Tender Drawing",
+        "IFC Drawing",
+        "For Con",
+        "Phase 1",
+        "Phase 2"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ขั้นตอนการทำงานของแบบ (Drawing Phase) ระยะที่ 1 และ 2 (ช่วงก่อนได้งานและเริ่มต้นโครงการ): ในระยะที่ 1 (Design & Tender) Designer จะออกแบบและส่งแบบประมูล (Tender Drawing) ให้ผู้รับเหมาเสนอราคา ช่วงนี้ Foreman มักยังไม่เข้ามาเกี่ยวข้อง แต่มีกฎเหล็กคือ 'ห้ามใช้แบบ Tender มาสร้างจริงเด็ดขาด' เพราะรายละเอียดยังไม่ครบถ้วน ส่วนในระยะที่ 2 (Contract & IFC) เมื่อบริษัทได้รับงาน จะมีการส่งมอบแบบ IFC (Issued For Construction) หรือ For Con. ซึ่งเปรียบเสมือนกฎหมายหลักของโครงการ หน้าที่ของ Foreman คือรับมอบแบบ IFC และเตรียมตัวเข้าสำรวจหน้างาน"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_1.1_Phase3_ShopDrawing",
+      "module_id": "Module 1.1",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "Shop Drawing",
+        "Setting Out",
+        "RFA",
+        "RFA Tracker",
+        "Phase 3"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ขั้นตอนการทำงานของแบบ (Drawing Phase) ระยะที่ 3: Shop Drawing (ช่วงเตรียมก่อสร้าง - สำคัญที่สุดสำหรับ Foreman): เป็นการเปลี่ยนแบบกระดาษ (IFC) ให้สร้างได้จริง (Shop Drawing) มี 6 ขั้นตอนดังนี้ 1) Survey & Compare: เทียบแบบ As-built อาคาร, IFC และหน้างานจริง 2) Setting Out: ทำแผนระบุระยะผนังและทำการ 'ตีไลน์' หน้างาน 3) Drafting: ส่งข้อมูลให้ Drafter เขียน Shop Drawing 4) Joint Inspection: สำรวจหน้างานร่วมกับ Designer 5) RFA Process: ส่ง RFA (Request for Approval) ให้ลูกค้าอนุมัติ และต้องอัปเดตสถานะใน RFA Tracker เสมอ 6) Approval: กฎเหล็กคือ 'ห้ามสั่งวัสดุหรือเริ่มงานติดตั้งจนกว่า RFA จะได้รับการอนุมัติ'"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_1.1_Phase5_AsBuilt",
+      "module_id": "Module 1.1",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "As-Built Drawing",
+        "Red-line Mark up",
+        "Handover",
+        "Phase 5"
+      ],
+      "authority_level": "Medium"
+    },
+    "content": "ขั้นตอนการทำงานของแบบ (Drawing Phase) ระยะที่ 5: As-Built Drawing (ช่วงส่งมอบงาน): กระบวนการนี้เริ่มจาก Foreman ตรวจสอบความถูกต้องของหน้างานที่สร้างเสร็จเทียบกับแบบก่อสร้าง หากหน้างานไม่ตรงกับ Shop Drawing ให้ทำ Red-line Mark up (ขีดแก้สีแดงลงในแบบ) จากนั้นส่งข้อมูลให้ Drafter แก้ไขเป็นแบบ As-built ฉบับสมบูรณ์ เพื่อส่งให้ CM/PM และ Consultant รีวิวความถูกต้อง ก่อนจะส่งมอบ As-built Drawing พร้อม Manual ให้ลูกค้าเพื่อใช้สำหรับการซ่อมบำรุงในอนาคต"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_1.1_FormalChange",
+      "module_id": "Module 1.1",
+      "chunk_type": "Procedure",
+      "topic_tags": [
+        "Change Management",
+        "Formal Change",
+        "Site Instruction",
+        "SI",
+        "Line Marking"
+      ],
+      "authority_level": "High"
+    },
+    "content": "การจัดการการเปลี่ยนแปลงหน้างานอย่างเป็นทางการ (Formal Change Management): เกิดขึ้นเมื่อลูกค้าออกเอกสาร Site Instruction (SI) เพื่อสั่งแก้ไขงานอย่างเป็นทางการ กระบวนการคือ 1) PM จะประเมิน Cost & Time ที่เพิ่มขึ้นหรือลดลง 2) Foreman ต้องร่วมมือกับ Drafter ทำ Shop Drawing ใหม่ 3) รออนุมัติ (Approve) ทั้งแบบและราคา 4) สิ่งที่ Foreman ต้องทำหน้างานคือ 'ลบเส้นไลน์เก่า' และทำ Line Marking (ตีไลน์) ใหม่เฉพาะส่วนที่แก้ไขตามแบบใหม่เท่านั้น"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_1.1_InformalChange",
+      "module_id": "Module 1.1",
+      "chunk_type": "Rule",
+      "topic_tags": [
+        "Change Management",
+        "Informal Change",
+        "RFI",
+        "Verbal Order",
+        "Risk"
+      ],
+      "authority_level": "High"
+    },
+    "content": "การจัดการการเปลี่ยนแปลงกรณีลูกค้าสั่งปากเปล่าหน้างาน (Informal Change Management): มีความเสี่ยงสูง กฎเหล็กสำหรับ Foreman คือ 'รับฟังแต่ห้ามรับปากทันที' ขั้นตอนที่ถูกต้องคือ: 1) แจ้ง PM เพื่อปรึกษาผลกระทบ 2) ทีม Creful ต้องออกเอกสาร RFI (Request for Information) ระบุสิ่งที่ลูกค้าสั่ง เพื่อให้ลูกค้าเซ็นยืนยัน 3) รอลูกค้า Sign กลับมาจึงเริ่มงาน ความเสี่ยงหากไม่ทำตามระบบคือ บริษัทอาจเก็บเงินค่างานเพิ่ม (VO) ไม่ได้, เกิดข้อพิพาทลูกค้าปฏิเสธว่าไม่ได้สั่ง และอาจถูกปรับเรื่องความล่าช้าเพราะไม่มีหลักฐานว่า Delay เกิดจากการสั่งแก้ของลูกค้า"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_1.1_Rubric_VerbalOrder",
+      "module_id": "Module 1.1",
+      "chunk_type": "Rubric",
+      "topic_tags": [
+        "Assessment Rubric",
+        "Verbal Order",
+        "RFI",
+        "Cost and Time Impact"
+      ],
+      "authority_level": "High"
+    },
+    "content": "เกณฑ์ประเมิน Foreman (Assessment Rubric) กรณีรับคำสั่งเปลี่ยนแปลงปากเปล่าหน้างาน: สถานการณ์จำลองคือ ลูกค้าขอขยายห้อง 50 ซม. ระหว่างช่างกำลังตีไลน์ - Foreman ระดับ Junior: ต้องรู้ว่าต้องหยุดงานส่วนนั้นและแจ้งหัวหน้า (ห้ามทำตามทันที) - Foreman ระดับ Intermediate: ต้องเข้าใจเรื่องเอกสารยืนยัน โดยแจ้ง PM ให้ออก RFI ไปให้ลูกค้าเซ็นก่อนทำ และสามารถอธิบายลูกค้าได้อย่างสุภาพ - Foreman ระดับ Senior: ต้องมองภาพรวมได้ทันทีว่ากระทบงานระบบอื่นไหม แจ้ง PM ทำ RFI เตรียมประสาน Drafter แก้ Shop Drawing และ Setting Out Plan ใหม่ พร้อมทั้งสื่อสารกับลูกค้าเรื่องผลกระทบเบื้องต้นเพื่อบริหารความคาดหวังเวลาส่งงาน"
+  },
+  {
+    "metadata": {
+      "doc_id": "Creful_DocMgmt_1.1_CommonMistakes",
+      "module_id": "Module 1.1",
+      "chunk_type": "Common_Mistake",
+      "topic_tags": [
+        "Common Mistakes",
+        "Unapproved Drawing",
+        "RFA Tracker",
+        "Verbal Order"
+      ],
+      "authority_level": "High"
+    },
+    "content": "ข้อผิดพลาดที่พบบ่อย (Common Mistakes) ของ Foreman ในกระบวนการจัดการแบบก่อสร้าง: 1) การเร่งงานโดยใช้แบบที่ยังไม่มีลายเซ็น Approve เพราะกลัวงานเสร็จไม่ทัน (วิธีแก้ไข: ต้องรอ Approve เสมอ เพราะหากทำเสร็จแต่ผิด ต้องทุบทิ้งจะเสียเวลาและเงินมากกว่าการรอ) 2) ลืมอัปเดต RFA Tracker ทำให้ไม่รู้ว่าแบบใบไหนผ่านหรือไม่ผ่าน (วิธีแก้ไข: ต้องเช็ค Tracker ทุกเช้าก่อนแจกงานช่าง) 3) รับคำสั่งปากเปล่าแล้วทำเลยเพราะเกรงใจลูกค้า (วิธีแก้ไข: ความเกรงใจใช้แทนเงินค่าจ้างไม่ได้ ต้องใช้เอกสาร RFI เป็นเกราะป้องกันตัวทุกครั้ง)"
+  }
+]
