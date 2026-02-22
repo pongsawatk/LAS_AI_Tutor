@@ -6,5 +6,5 @@
 
 const CONFIG = {
     GEMINI_API_KEY: "AIzaSyB12a13LbEy-_uj-aUwlo3B03TsDC-jONk",
-    GOOGLE_SHEET_WEBHOOK_URL: "https://script.google.com/macros/s/AKfycbxMTTaHFrZ5WG685zECDbUiN5BZDXTNx4-JbnjA6W8l0gG6YPH-KAaCpotPQaW680s5/exec"  // วาง URL ของ Google Apps Script Web App ที่นี่
+    GOOGLE_SHEET_WEBHOOK_URL: "https://script.google.com/macros/s/AKfycbxu4HNRZF04XywxaxjqVNVcmeQB_Eem08v0Iq1lXh7DwN6YTV_UeyiYZZH9L1bCuchn/exec"  // วาง URL ของ Google Apps Script Web App ที่นี่
 };

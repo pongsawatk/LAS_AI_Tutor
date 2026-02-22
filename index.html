@@ -396,7 +396,7 @@
       messageHistory.push({ role: 'model', parts: [{ text: response }] });
 
       // Fire-and-forget: log to Google Sheet (does not await)
-      sendLogToSheet(text, response, responseTime);
+      sendLogToSheet(text, response, responseTime, selectedModel);
 
       // Keep history manageable (last 20 turns = 40 entries)
       if (messageHistory.length > 40) {
@@ -407,7 +407,7 @@
     // ============================================================
     // GOOGLE SHEET LOGGING (fire-and-forget)
     // ============================================================
-    function sendLogToSheet(question, answer, responseTime) {
+    function sendLogToSheet(question, answer, responseTime, model) {
       const webhookUrl = CONFIG.GOOGLE_SHEET_WEBHOOK_URL;
       if (!webhookUrl || webhookUrl === 'YOUR_WEBHOOK_URL_HERE') {
         console.info('📋 Sheet logging skipped — GOOGLE_SHEET_WEBHOOK_URL not set in config.js');
@@ -425,7 +425,8 @@
         NickName: userName || 'ไม่ระบุชื่อ',
         Question: question,
         Answer: answer,
-        ResponseTime: responseTime
+        ResponseTime: responseTime,
+        Model: model
       };
 
       // Fire-and-forget — no-cors avoids CORS preflight issues with Apps Script
